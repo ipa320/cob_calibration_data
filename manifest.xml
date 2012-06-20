@@ -1,12 +1,17 @@
 <package>
-  <description brief="cob_calibration_data">
+  <description brief="cob_hardware_config">
 
-     This repository holds the current calibration data for Care-O-bot.
+     This package contains configuration for each robot instance (e.g. cob3-1, cob3-2,...). There is a directory for each robot with configuration about urdf, hardware configuration and calibration values.
 
   </description>
   <author>Florian Weisshardt</author>
   <license>LGPL</license>
   <review status="unreviewed" notes=""/>
-  <url>http://ros.org/wiki/cob_calibration_data</url>
+  <url>http://ros.org/wiki/cob_hardware_config</url>
+
+  <depend package="cob_description"/>
+  <depend package="raw_description"/>
+  <depend package="schunk_description"/>
+  <depend package="ur5_description"/>
 
 </package>
