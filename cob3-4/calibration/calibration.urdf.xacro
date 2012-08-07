@@ -66,24 +66,24 @@
 
 	<!-- torso reference positions | used as calibration_rising for torso chain -->
 	<!-- ! set these values to make torso straight with (0, 0, 0) joint angles ! -->
-	<property name="torso_lower_neck_tilt_ref" value="-0.24501037"/>
-	<property name="torso_pan_ref" value="-0.0146"/>
-	<property name="torso_upper_neck_tilt_ref" value="+0.14419551"/>
+	<property name="torso_lower_neck_tilt_ref" value="-0.007575387"/>
+	<property name="torso_pan_ref" value="0.013810926"/>
+	<property name="torso_upper_neck_tilt_ref" value="0.00704108"/>
 
 	<!-- tray reference position | used as calibration_rising for tray chain -->
-	<property name="tray_ref" value="-0.2"/>
+	<property name="tray_ref" value="1.2"/>
 
 	<!-- head camera axis reference position | used as calibration_rising for head axis chain -->
-	<property name="head_axis_ref" value="-0.1"/>
+	<property name="head_axis_ref" value="0.14"/> 
 
 	<!-- arm reference positions | used as calibration_rising for arm chain-->
-	<property name="arm_1_ref" value="0.0"/>
-	<property name="arm_2_ref" value="0.0"/>
+	<property name="arm_1_ref" value="-0.043419323377742652"/>
+	<property name="arm_2_ref" value="-0.11666562528688849"/>
 	<property name="arm_3_ref" value="0.0"/>
-	<property name="arm_4_ref" value="0.0"/>
-	<property name="arm_5_ref" value="0.0"/>
+	<property name="arm_4_ref" value="-0.042037458954219668"/>
+	<property name="arm_5_ref" value="-0.011534828568526338"/>
 	<property name="arm_6_ref" value="0.0"/>
-	<property name="arm_7_ref" value="0.0"/>
+	<property name="arm_7_ref" value="-0.012157649306807588"/>
 
 	<!-- ***************************** -->
 	<!-- camera calibration properties -->
