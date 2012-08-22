@@ -8,7 +8,7 @@
 	<property name="head_pan_ref" value="-0.0"/>
 	<property name="head_tilt_ref" value="0.0" />
 
-<!-- ***************************** -->
+	<!-- ***************************** -->
 	<!-- camera calibration properties -->
 	<!-- ***************************** -->
 	<!-- left | handeye calibration | relative to head_axis_link -->
