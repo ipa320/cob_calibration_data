@@ -42,9 +42,9 @@
 	<property name="torso_x" value="0.1523087993"/>
 	<property name="torso_y" value="-0.0441619833"/>
 	<property name="torso_z" value="0.8846128253"/>
-	<property name="torso_roll" value="1.5977820225"/>
-	<property name="torso_pitch" value="-0.0605637991"/>
-	<property name="torso_yaw" value="0.0359995364"/>
+	<property name="torso_roll" value="3.1415926"/>
+	<property name="torso_pitch" value="0.0"/>
+	<property name="torso_yaw" value="0.0"/>
 
 	<!-- arm mount positions | relative to base_link -->
 	<property name="arm_x" value="-0.0146879612"/>
