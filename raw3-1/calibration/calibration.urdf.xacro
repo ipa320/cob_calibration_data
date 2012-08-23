@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <robot>
 
-	<!-- common properties -->
-	<property name="M_PI" value="3.1415926535897931" />
-
+	<!-- *********************************** -->
+	<!-- kinematic chain reference positions -->
+	<!-- *********************************** -->
 	<!-- arm reference positions -->
 	<property name="arm_0_ref" value="-1.57" />
 	<property name="arm_1_ref" value="-1.57" />
@@ -11,10 +11,11 @@
 	<property name="arm_3_ref" value="0" />
 	<property name="arm_4_ref" value="0" />
 	<property name="arm_5_ref" value="0" />
-	
-        <property name="torso_pan_ref" value="0.9"/>
-        <property name="torso_tilt_ref" value="0.0"/>
-	
+
+	<!-- torso reference positions | used as calibration_rising for torso chain -->
+	<!-- ! set these values to make torso straight with (0, 0, 0) joint angles ! -->
+    <property name="torso_pan_ref" value="0.9"/>
+    <property name="torso_tilt_ref" value="0.0"/>
 
 	<!-- ***************************** -->
 	<!-- camera calibration properties -->
