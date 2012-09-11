@@ -61,7 +61,6 @@
 	<property name="torso_lower_neck_tilt_ref" value="0.0"/>
 	<property name="torso_pan_ref" value="0.0"/>
 	<property name="torso_upper_neck_tilt_ref" value="0.012173672206699848"/>
-	
 
 	<!-- torso reference positions | used as calibration_rising for torso chain -->
 	<!-- ! set these values to make torso straight with (0, 0, 0) joint angles ! -->
