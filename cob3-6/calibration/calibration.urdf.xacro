@@ -79,7 +79,7 @@
 	<property name="arm_2_ref" value="-0.0157588848285377026"/>
 	<property name="arm_3_ref" value="-0.086654935"/>
 	<property name="arm_4_ref" value="-0.0090391095727682114"/>
-	<property name="arm_5_ref" value="-0.249414234"/>  
+	<property name="arm_5_ref" value="1.24882957"/>  
 	<property name="arm_6_ref" value="0.0"/>
 	<property name="arm_7_ref" value="-0.599876631"/>
 
