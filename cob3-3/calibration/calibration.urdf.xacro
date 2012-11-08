@@ -65,9 +65,9 @@
 
 	<!-- torso reference positions | used as calibration_rising for torso chain -->
 	<!-- ! set these values to make torso straight with (0, 0, 0) joint angles ! -->
-	<property name="torso_lower_neck_tilt_ref" value="0.104114493"/>
-	<property name="torso_pan_ref" value="-0.0195502351"/>
-	<property name="torso_upper_neck_tilt_ref" value="1.8952950"/>
+	<property name="torso_lower_neck_tilt_ref" value="0"/>
+	<property name="torso_pan_ref" value="0"/>
+	<property name="torso_upper_neck_tilt_ref" value="0.0"/>
 
 	<!-- tray reference position | used as calibration_rising for tray chain -->
 	<property name="tray_ref" value="-0.2"/>
@@ -90,12 +90,12 @@
 	<property name="cam_l_yaw" value="-0.863571905"/>
 
 	<!-- right | stereo baseline calibration | relative to left camera -->
-	<property name="cam_r_x" value="0.120443880009"/>
-	<property name="cam_r_y" value="0.000912326545785"/>
-	<property name="cam_r_z" value="-0.000618414374407"/>
-	<property name="cam_r_roll" value="0.00492659713552"/>
-	<property name="cam_r_pitch" value="0.0119813329007"/>
-	<property name="cam_r_yaw" value="0.0117017577983"/>
+	<property name="cam_r_x" value="0.120369596175"/>
+	<property name="cam_r_y" value="0.00062213820659"/>
+	<property name="cam_r_z" value="-0.00310794789323"/>
+	<property name="cam_r_roll" value="0.00476378339059"/>
+	<property name="cam_r_pitch" value="0.010749316417"/>
+	<property name="cam_r_yaw" value="0.0116035986209"/>
 
 	<!-- cam3d | handeye calibration | relative to head_axis_link -->
 	<property name="cam3d_x" value="-0.0446485862"/>
