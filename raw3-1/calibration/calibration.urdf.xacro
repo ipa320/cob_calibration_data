@@ -14,7 +14,7 @@
 
 	<!-- torso reference positions | used as calibration_rising for torso chain -->
 	<!-- ! set these values to make torso straight with (0, 0, 0) joint angles ! -->
-    <property name="torso_pan_ref" value="0.9"/>
+    <property name="torso_pan_ref" value="-0.44"/>
     <property name="torso_tilt_ref" value="0.0"/>
 
 	<!-- ***************************** -->
