@@ -73,7 +73,7 @@
 	<property name="def_tray_ref" value="-0.2"/>
 
 	<!-- head camera axis reference position | used as calibration_rising for head axis chain -->
-	<property name="def_head_axis_ref" value="-0.1"/>
+	<property name="def_head_axis_ref" value="0.1"/>
 
 	<!-- arm reference positions | used as calibration_rising for arm chain-->
 	<!-- not needed for lbr, use nonius scala -->

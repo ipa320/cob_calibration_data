@@ -39,7 +39,7 @@
 	<property name="def_torso_yaw" value="0.0"/>
 
 	<!-- arm mount positions | relative to base_link -->
-	<property name="def_arm_x" value="0.040"/>
+	<property name="def_arm_x" value="0.000"/>
 	<property name="def_arm_y" value="-0.005"/>
 	<property name="def_arm_z" value="0.83637"/>
 	<property name="def_arm_roll" value="3.1415926"/>
@@ -69,15 +69,15 @@
 
 	<!-- torso reference positions | used as calibration_rising for torso chain -->
 	<!-- ! set these values to make torso straight with (0, 0, 0) joint angles ! -->
-	<property name="def_torso_lower_neck_tilt_ref" value="-0.24501037"/>
-	<property name="def_torso_pan_ref" value="-0.0146"/>
-	<property name="def_torso_upper_neck_tilt_ref" value="+0.14419551"/>
+	<property name="def_torso_lower_neck_tilt_ref" value="0"/>
+	<property name="def_torso_pan_ref" value="0"/>
+	<property name="def_torso_upper_neck_tilt_ref" value="0"/>
 
 	<!-- tray reference position | used as calibration_rising for tray chain -->
 	<property name="def_tray_ref" value="3.14"/>
 
 	<!-- head camera axis reference position | used as calibration_rising for head axis chain -->
-	<property name="def_head_axis_ref" value="-0.1"/>
+	<property name="def_head_axis_ref" value="0.15"/>
 
 	<!-- arm reference positions | used as calibration_rising for arm chain-->
 	<property name="arm_1_ref" value="0.0"/>
