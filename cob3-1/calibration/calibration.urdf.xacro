@@ -101,8 +101,8 @@
 	<property name="cam_r_yaw" value="0.00676" />
 
 	<!-- cam3d | handeye calibration | relative to relative to left camera -->
-	<property name="cam3d_x" value="0.045" />
-	<property name="cam3d_y" value="-0.04" />
+	<property name="cam3d_x" value="-0.01" />
+	<property name="cam3d_y" value="0.05" />
 	<property name="cam3d_z" value="0.08" />
 	<property name="cam3d_roll" value="0.0" />
 	<property name="cam3d_pitch" value="0.0" />
