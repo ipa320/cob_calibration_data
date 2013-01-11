@@ -75,8 +75,9 @@
 	<property name="arm_3_ref" value="-0.0109574124"/>
 	<property name="arm_4_ref" value="0.0211027861"/>
 	<property name="arm_5_ref" value="0.0074385176412761211"/>
-	<property name="arm_6_ref" value="191.68326"/>
+	<property name="arm_6_ref" value="385.34559"/>
 	<property name="arm_7_ref" value="3.08280301"/>
+
 	<!-- ***************************** -->
 	<!-- camera calibration properties -->
 	<!-- ***************************** -->
