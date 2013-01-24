@@ -70,7 +70,9 @@
 	<property name="offset_torso_upper_neck_tilt_ref" value="0.0"/>
 
 	<!-- tray reference position | used as calibration_rising for tray chain -->
-	<property name="offset_tray_ref" value="0.0"/>
+	<property name="offset_tray_1_ref" value="0"/>
+	<property name="offset_tray_2_ref" value="0"/>
+	<property name="offset_tray_3_ref" value="0"/>
 
 	<!-- head camera axis reference position | used as calibration_rising for head axis chain -->
 	<property name="offset_head_axis_ref" value="0.0"/>

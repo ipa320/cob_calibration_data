@@ -38,6 +38,15 @@
 	<property name="def_torso_pitch" value="0.0"/>
 	<property name="def_torso_yaw" value="0.0"/>
 
+	<!-- head mount positions | relative to head_cover_link -->
+	<property name="def_head_x" value="0.000"/>
+	<property name="def_head_y" value="0.173"/>
+	<property name="def_head_z" value="0.0"/>
+	<property name="def_head_roll" value="0.0"/>
+	<property name="def_head_pitch" value="0.0"/>
+	<property name="def_head_yaw" value="0.0"/>
+
+
 	<!-- arm mount positions | relative to base_link -->
 	<property name="def_arm_x" value="0.000"/>
 	<property name="def_arm_y" value="-0.005"/>
@@ -47,7 +56,7 @@
 	<property name="def_arm_yaw" value="-1.8326"/>
 	
 	
-		<!-- tray mount positions | relative to base_link -->
+	<!-- tray mount positions | relative to base_link -->
 
 	
 	<property name="def_tray_x" value="0.2406"/>
@@ -74,7 +83,9 @@
 	<property name="def_torso_upper_neck_tilt_ref" value="0"/>
 
 	<!-- tray reference position | used as calibration_rising for tray chain -->
-	<property name="def_tray_ref" value="3.14"/>
+	<property name="def_tray_1_ref" value="0"/>
+	<property name="def_tray_2_ref" value="0"/>
+	<property name="def_tray_3_ref" value="0"/>
 
 	<!-- head camera axis reference position | used as calibration_rising for head axis chain -->
 	<property name="def_head_axis_ref" value="0.15"/>
@@ -100,18 +111,18 @@
 	<property name="def_cam_l_yaw" value="0.0"/>
 
 	<!-- right | stereo baseline calibration | relative to left camera -->
-	<property name="def_cam_r_x" value="0.12"/>
-	<property name="def_cam_r_y" value="0.0"/>
-	<property name="def_cam_r_z" value="0.0"/>
-	<property name="def_cam_r_roll" value="0.0"/>
-	<property name="def_cam_r_pitch" value="0.0"/>
-	<property name="def_cam_r_yaw" value="0.01"/>
+	<property name="def_cam_r_x" value="0"/>
+	<property name="def_cam_r_y" value="0"/>
+	<property name="def_cam_r_z" value="0"/>
+	<property name="def_cam_r_roll" value="0"/>
+	<property name="def_cam_r_pitch" value="0"/>
+	<property name="def_cam_r_yaw" value="0"/>
 
 	<!-- cam3d | handeye calibration | relative to head_axis_link -->
-	<property name="def_cam3d_x" value="-0.05"/>
-	<property name="def_cam3d_y" value="-0.04"/>
-	<property name="def_cam3d_z" value="-0.01"/>
-	<property name="def_cam3d_roll" value="0.0"/>
-	<property name="def_cam3d_pitch" value="-1.5708"/>
-	<property name="def_cam3d_yaw" value="0.0"/>
+	<property name="def_cam3d_x" value="0"/>
+	<property name="def_cam3d_y" value="0"/>
+	<property name="def_cam3d_z" value="0"/>
+	<property name="def_cam3d_roll" value="0"/>
+	<property name="def_cam3d_pitch" value="0"/>
+	<property name="def_cam3d_yaw" value="0"/>
 </robot>
