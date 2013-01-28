@@ -32,9 +32,9 @@
 	<!-- *********************** -->
 	<!-- tray mount positions | relative to base_link -->
 	<property name="tray_x" value="0.2406"/>
-	<property name="tray_y" value="0.1900"/>
+	<property name="tray_y" value="0.1000"/>
 	<property name="tray_z" value="0.7320"/>
-	<property name="tray_roll" value="2.3561"/>
+	<property name="tray_roll" value="${M_PI/2}"/>
 	<property name="tray_pitch" value="0"/>
 	<property name="tray_yaw" value="0"/>
 
