@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><robot>
-	<include filename="$(find cob_calibration_data)/$(env ROBOT)/calibration/default/calibration.urdf.xacro" />
-	<include filename="$(find cob_calibration_data)/$(env ROBOT)/calibration/calibration_offset.urdf.xacro" />
+	<include filename="$(find cob_calibration_data)/cob3-4/calibration/calibration_default.urdf.xacro" />
+	<include filename="$(find cob_calibration_data)/cob3-4/calibration/calibration_offset.urdf.xacro" />
 	<!-- ***************** -->
 	<!-- base calibration -->
 	<!-- ***************** -->
