@@ -97,7 +97,7 @@
 	<property name="arm_4_ref" value="0.0"/>
 	<property name="arm_5_ref" value="0.0"/>
 	<property name="arm_6_ref" value="0.0"/>
-	<property name="arm_7_ref" value="0.0"/>
+	<property name="arm_7_ref" value="-0.4"/>
 
 	<!-- ***************************** -->
 	<!-- camera calibration properties -->
