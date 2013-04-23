@@ -23,7 +23,7 @@
 	<property name="def_arm_z" value="0.565"/>
 	<property name="def_arm_roll" value="0"/>
 	<property name="def_arm_pitch" value="0"/>
-	<property name="def_arm_yaw" value="3.141"/>
+	<property name="def_arm_yaw" value="3.927"/>
 	<!-- ***************************** -->
 	<!-- camera calibration properties -->
 	<!-- ***************************** -->
