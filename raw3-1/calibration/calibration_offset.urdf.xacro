@@ -17,7 +17,7 @@
 	<property name="offset_arm_z" value="-0.02"/>
 	<property name="offset_arm_roll" value="0.0"/>
 	<property name="offset_arm_pitch" value="0.0"/>
-	<property name="offset_arm_yaw" value="-0.0523"/>
+	<property name="offset_arm_yaw" value="0.0"/>
 
 	<!-- ***************************** -->
 	<!-- camera calibration properties -->
