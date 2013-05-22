@@ -92,12 +92,12 @@
 	<!-- camera calibration properties -->
 	<!-- ***************************** -->
 	<!-- left | handeye calibration | relative to head_axis_link -->
-	<property name="offset_cam_ref_x" value="-0.0310535032"/>
-	<property name="offset_cam_ref_y" value="-0.0162273249"/>
-	<property name="offset_cam_ref_z" value="-0.0106879839"/>
-	<property name="offset_cam_ref_roll" value="0.0405180035"/>
-	<property name="offset_cam_ref_pitch" value="0.0480623116"/>
-	<property name="offset_cam_ref_yaw" value="-0.0938664235"/>
+	<property name="offset_cam_l_x" value="-0.0310535032"/>
+	<property name="offset_cam_l_y" value="-0.0162273249"/>
+	<property name="offset_cam_l_z" value="-0.0106879839"/>
+	<property name="offset_cam_l_roll" value="0.0405180035"/>
+	<property name="offset_cam_l_pitch" value="0.0480623116"/>
+	<property name="offset_cam_l_yaw" value="-0.0938664235"/>
 
 	<!-- right | stereo baseline calibration | relative to left camera -->
 	<property name="offset_cam_r_x" value="0.119888209923"/>
