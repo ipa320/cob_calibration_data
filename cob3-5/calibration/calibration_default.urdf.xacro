@@ -1,5 +1,5 @@
-<?xml version="1.0" ?><robot>
-
+<?xml version="1.0" ?>
+<robot>
 	<!-- ***************** -->
 	<!-- base calibration -->
 	<!-- ***************** -->
@@ -47,8 +47,8 @@
 	<property name="def_torso_yaw" value="0.0660275925"/>
 
 	<!-- head mount positions | relative to head_cover_link -->
-	<property name="def_head_x" value="0.000"/>
-	<property name="def_head_y" value="0.173"/>
+	<property name="def_head_x" value="0.0"/>
+	<property name="def_head_y" value="0.0"/>
 	<property name="def_head_z" value="0.0"/>
 	<property name="def_head_roll" value="0.0"/>
 	<property name="def_head_pitch" value="0.0"/>
@@ -66,11 +66,6 @@
 	<!-- kinematic chain reference positions -->
 	<!-- *********************************** -->
 	<!-- torso chain calibration_offest! | relative to reference position (see below)-->
-	<!-- not used right now
-	<property name="def_torso_lower_neck_tilt_cal_offset" value="0.0"/>
-	<property name="def_torso_pan_cal_offset" value="0.0"/>
-	<property name="def_torso_upper_neck_tilt_cal_offset" value="0.0"/>
-	-->
 
 	<!-- torso reference positions | used as calibration_rising for torso chain -->
 	<!-- ! set these values to make torso straight with (0, 0, 0) joint angles ! -->

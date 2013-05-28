@@ -46,14 +46,6 @@
 	<property name="def_torso_pitch" value="0.0"/>
 	<property name="def_torso_yaw" value="0.0"/>
 
-	<!-- head mount positions | relative to head_cover_link -->
-	<!--property name="def_head_x" value="0"/>
-	<property name="def_head_y" value="0"/>
-	<property name="def_head_z" value="0"/>
-	<property name="def_head_roll" value="0"/>
-	<property name="def_head_pitch" value="0"/>
-	<property name="def_head_yaw" value="0"/-->
-
 	<!-- arm mount positions | relative to base_link -->
 	<property name="def_arm_x" value="0.040"/>
 	<property name="def_arm_y" value="-0.005"/>
@@ -75,11 +67,6 @@
 
 	<!-- torso reference positions | used as calibration_rising for torso chain -->
 	<!-- ! set these values to make torso straight with (0, 0, 0) joint angles ! -->
-	<!-- not used in this robot
-	<property name="def_torso_lower_neck_tilt_ref" value="0"/>
-	<property name="def_torso_pan_ref" value="0"/>
-	<property name="def_torso_upper_neck_tilt_ref" value="0"/>
-	-->
 	<property name="def_torso_lower_neck_pan_ref" value="-0.00018174503929913044" />
 	<property name="def_torso_lower_neck_tilt_ref" value="0.048314183950424194" />
 	<property name="def_torso_upper_neck_pan_ref" value="0.0022084463853389025" />

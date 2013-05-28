@@ -65,11 +65,6 @@
 	<!-- kinematic chain reference positions -->
 	<!-- *********************************** -->
 	<!-- torso chain calibration_offest! | relative to reference position (see below)-->
-	<!-- not used right now
-	<property name="offset_torso_lower_neck_tilt_cal_offset" value="0.0"/>
-	<property name="offset_torso_pan_cal_offset" value="0.0"/>
-	<property name="offset_torso_upper_neck_tilt_cal_offset" value="0.0"/>
-	-->
 
 	<!-- torso reference positions | used as calibration_rising for torso chain -->
 	<!-- ! set these values to make torso straight with (0, 0, 0) joint angles ! -->

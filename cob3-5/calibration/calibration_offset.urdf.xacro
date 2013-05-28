@@ -65,11 +65,6 @@
 	<!-- kinematic chain reference positions -->
 	<!-- *********************************** -->
 	<!-- torso chain calibration_offest! | relative to reference position (see below)-->
-	<!-- not used right now
-	<property name="offset_torso_lower_neck_tilt_cal_offset" value="0.0"/>
-	<property name="offset_torso_pan_cal_offset" value="0.0"/>
-	<property name="offset_torso_upper_neck_tilt_cal_offset" value="0.0"/>
-	-->
 
 	<!-- torso reference positions | used as calibration_rising for torso chain -->
 	<!-- ! set these values to make torso straight with (0, 0, 0) joint angles ! -->
@@ -84,7 +79,13 @@
 	<property name="offset_head_axis_ref" value="0.0"/>
 
 	<!-- arm reference positions | used as calibration_rising for arm chain-->
-	<!-- not needed for lbr, use nonius scala -->
+	<property name="offset_arm_1_ref" value="0.0" />
+	<property name="offset_arm_2_ref" value="0.0" />
+	<property name="offset_arm_3_ref" value="0.0" />
+	<property name="offset_arm_4_ref" value="0.0" />
+	<property name="offset_arm_5_ref" value="0.0" />
+	<property name="offset_arm_6_ref" value="0.0" />
+	<property name="offset_arm_7_ref" value="0.0" />
 
 	<!-- ***************************** -->
 	<!-- camera calibration properties -->
