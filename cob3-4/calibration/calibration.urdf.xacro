@@ -62,7 +62,15 @@
 	<property name="arm_roll" value="${def_arm_roll+offset_arm_roll}"/>
 	<property name="arm_pitch" value="${def_arm_pitch+offset_arm_pitch}"/>
 	<property name="arm_yaw" value="${def_arm_yaw+offset_arm_yaw}"/>
-
+	
+	
+	<!-- sdh mount positions | relative to arm_7_link -->
+	<property name="sdh_x" value="${def_sdh_x+offset_sdh_x}"/>
+	<property name="sdh_y" value="${def_sdh_y+offset_sdh_y}"/>
+	<property name="sdh_z" value="${def_sdh_z+offset_sdh_z}"/>
+	<property name="sdh_roll" value="${def_sdh_roll+offset_sdh_roll}"/>
+	<property name="sdh_pitch" value="${def_sdh_pitch+offset_sdh_pitch}"/>
+	<property name="sdh_yaw" value="${def_sdh_yaw+offset_sdh_yaw}"/>
 
 	<!-- *********************************** -->
 	<!-- kinematic chain reference positions -->
