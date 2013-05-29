@@ -47,7 +47,15 @@
 	<property name="torso_roll" value="${def_torso_roll+offset_torso_roll}"/>
 	<property name="torso_pitch" value="${def_torso_pitch+offset_torso_pitch}"/>
 	<property name="torso_yaw" value="${def_torso_yaw+offset_torso_yaw}"/>
-
+	
+	<!-- head mount positions | relative to head_cover_link -->
+	<property name="head_x" value="${def_head_x+offset_head_x}"/>
+	<property name="head_y" value="${def_head_y+offset_head_y}"/>
+	<property name="head_z" value="${def_head_z+offset_head_z}"/>
+	<property name="head_roll" value="${def_head_roll+offset_head_roll}"/>
+	<property name="head_pitch" value="${def_head_pitch+offset_head_pitch}"/>
+	<property name="head_yaw" value="${def_head_yaw+offset_head_yaw}"/>
+	
 	<!-- arm mount positions | relative to base_link -->
 	<property name="arm_x" value="${def_arm_x+offset_arm_x}"/>
 	<property name="arm_y" value="${def_arm_y+offset_arm_y}"/>
@@ -55,7 +63,15 @@
 	<property name="arm_roll" value="${def_arm_roll+offset_arm_roll}"/>
 	<property name="arm_pitch" value="${def_arm_pitch+offset_arm_pitch}"/>
 	<property name="arm_yaw" value="${def_arm_yaw+offset_arm_yaw}"/>
-
+	
+	
+	<!-- sdh mount positions | relative to arm_7_link -->
+	<property name="sdh_x" value="${def_sdh_x+offset_sdh_x}"/>
+	<property name="sdh_y" value="${def_sdh_y+offset_sdh_y}"/>
+	<property name="sdh_z" value="${def_sdh_z+offset_sdh_z}"/>
+	<property name="sdh_roll" value="${def_sdh_roll+offset_sdh_roll}"/>
+	<property name="sdh_pitch" value="${def_sdh_pitch+offset_sdh_pitch}"/>
+	<property name="sdh_yaw" value="${def_sdh_yaw+offset_sdh_yaw}"/>
 
 	<!-- *********************************** -->
 	<!-- kinematic chain reference positions -->
