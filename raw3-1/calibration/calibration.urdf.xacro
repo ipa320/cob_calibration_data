@@ -22,6 +22,14 @@
 	<property name="arm_pitch" value="${def_arm_pitch+offset_arm_pitch}"/>
 	<property name="arm_yaw" value="${def_arm_yaw+offset_arm_yaw}"/>
 
+	<!-- gripper mount positions | relative to arm_ee_link -->
+	<property name="gripper_x" value="${def_gripper_x+offset_gripper_x}"/>
+	<property name="gripper_y" value="${def_gripper_y+offset_gripper_y}"/>
+	<property name="gripper_z" value="${def_gripper_z+offset_gripper_z}"/>
+	<property name="gripper_roll" value="${def_gripper_roll+offset_gripper_roll}"/>
+	<property name="gripper_pitch" value="${def_gripper_pitch+offset_gripper_pitch}"/>
+	<property name="gripper_yaw" value="${def_gripper_yaw+offset_gripper_yaw}"/>
+
 
 	<!-- ***************************** -->
 	<!-- camera calibration properties -->
