@@ -1,47 +1,41 @@
 <?xml version="1.0"?>
 <robot>
+	<include filename="$(find cob_calibration_data)/raw3-3/calibration/calibration_default.urdf.xacro" />
+	<include filename="$(find cob_calibration_data)/raw3-3/calibration/calibration_offset.urdf.xacro" />>
 
-	<!-- *********************************** -->
-	<!-- kinematic chain reference positions -->
-	<!-- *********************************** -->
-	<!-- arm reference positions -->
-	<property name="arm_0_ref" value="-1.57" />
-	<property name="arm_1_ref" value="-1.57" />
-	<property name="arm_2_ref" value="1.57" />
-	<property name="arm_3_ref" value="0" />
-	<property name="arm_4_ref" value="0" />
-	<property name="arm_5_ref" value="0" />
+	<!-- *********************** -->
+	<!-- upper robot calibration -->
+	<!-- *********************** -->
+	<!-- tower mount positions | relative to base_link -->
+	<property name="tower_x" value="${def_tower_x+offset_tower_x}"/>
+	<property name="tower_y" value="${def_tower_y+offset_tower_y}"/>
+	<property name="tower_z" value="${def_tower_z+offset_tower_z}"/>
+	<property name="tower_roll" value="${def_tower_roll+offset_tower_roll}"/>
+	<property name="tower_pitch" value="${def_tower_pitch+offset_tower_pitch}"/>
+	<property name="tower_yaw" value="${def_tower_yaw+offset_tower_yaw}"/>
 
-	<!-- torso reference positions | used as calibration_rising for torso chain -->
-	<!-- ! set these values to make torso straight with (0, 0, 0) joint angles ! -->
-    <property name="torso_pan_ref" value="-0.44"/>
-    <property name="torso_tilt_ref" value="0.0"/>
+	<!-- arm mount positions | relative to base_link -->
+	<property name="arm_x" value="${def_arm_x+offset_arm_x}"/>
+	<property name="arm_y" value="${def_arm_y+offset_arm_y}"/>
+	<property name="arm_z" value="${def_arm_z+offset_arm_z}"/>
+	<property name="arm_roll" value="${def_arm_roll+offset_arm_roll}"/>
+	<property name="arm_pitch" value="${def_arm_pitch+offset_arm_pitch}"/>
+	<property name="arm_yaw" value="${def_arm_yaw+offset_arm_yaw}"/>
 
-	<!-- ***************************** -->
-	<!-- camera calibration properties -->
-	<!-- ***************************** -->
-	<!-- left | handeye calibration | relative to head_axis_link -->
-	<property name="cam_l_x" value="-0.0171250371"/>
-	<property name="cam_l_y" value="-0.0389120491"/>
-	<property name="cam_l_z" value="-0.12027305"/>
-	<property name="cam_l_roll" value="2.149627771"/>
-	<property name="cam_l_pitch" value="-1.5608998734"/>
-	<property name="cam_l_yaw" value="-2.2074792588"/>
+	<!-- gripper_left mount positions | relative to arm_left_7_link -->
+	<property name="gripper_left x" value="${def_gripper_left x+offset_gripper_left x}"/>
+	<property name="gripper_left y" value="${def_gripper_left y+offset_gripper_left y}"/>
+	<property name="gripper_left z" value="${def_gripper_left z+offset_gripper_left z}"/>
+	<property name="gripper_left roll" value="${def_gripper_left roll+offset_gripper_left roll}"/>
+	<property name="gripper_left pitch" value="${def_gripper_left pitch+offset_gripper_left pitch}"/>
+	<property name="gripper_left yaw" value="${def_gripper_left yaw+offset_gripper_left yaw}"/>
 
-	<!-- right | stereo baseline calibration | relative to left camera -->
-	<property name="cam_r_x" value="0.044"/>
-	<property name="cam_r_y" value="-0.06"/>
-	<property name="cam_r_z" value="0.092"/>
-	<property name="cam_r_roll" value="-1.57"/>
-	<property name="cam_r_pitch" value="0.0"/>
-	<property name="cam_r_yaw" value="-1.57"/>
+	<!-- gripper_right mount positions | relative to arm_right_7_link -->
+	<property name="gripper_right_x" value="${def_gripper_right_x+offset_gripper_right_x}"/>
+	<property name="gripper_right_y" value="${def_gripper_right_y+offset_gripper_right_y}"/>
+	<property name="gripper_right_z" value="${def_gripper_right_z+offset_gripper_right_z}"/>
+	<property name="gripper_right_roll" value="${def_gripper_right_roll+offset_gripper_right_roll}"/>
+	<property name="gripper_right_pitch" value="${def_gripper_right_pitch+offset_gripper_right_pitch}"/>
+	<property name="gripper_right_yaw" value="${def_gripper_right_yaw+offset_gripper_right_yaw}"/>
 
-	<!-- cam3d | handeye calibration | relative to head_axis_link -->
-	<property name="cam3d_x" value="0.015"/>
-	<property name="cam3d_y" value="0.0"/>
-	<property name="cam3d_z" value="0.12"/>
-	<property name="cam3d_roll" value="-1.57"/>
-	<property name="cam3d_pitch" value="0.0"/>
-	<property name="cam3d_yaw" value="-1.57"/>
-	
 </robot>
