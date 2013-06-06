@@ -1,4 +1,5 @@
-<?xml version="1.0" ?><robot>
+<?xml version="1.0" ?>
+<robot>
 	<!-- *********************** -->
 	<!-- upper robot calibration -->
 	<!-- *********************** -->
@@ -18,6 +19,14 @@
 	<property name="offset_arm_roll" value="0.0"/>
 	<property name="offset_arm_pitch" value="0.0"/>
 	<property name="offset_arm_yaw" value="0.0"/>
+
+	<!-- gripper mount positions | relative to arm_ee_link -->
+	<property name="offset_gripper_x" value="0.0"/>
+	<property name="offset_gripper_y" value="0.0"/>
+	<property name="offset_gripper_z" value="0.0"/>
+	<property name="offset_gripper_roll" value="0.0"/>
+	<property name="offset_gripper_pitch" value="0.0"/>
+	<property name="offset_gripper_yaw" value="0.0"/>
 
 	<!-- ***************************** -->
 	<!-- camera calibration properties -->
