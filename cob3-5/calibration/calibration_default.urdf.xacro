@@ -7,36 +7,36 @@
 	<property name="def_laser_front_x" value="0.325"/>
 	<property name="def_laser_front_y" value="0.0"/>
 	<property name="def_laser_front_z" value="0.135"/>
-	<property name="def_laser_front_roll" value="0"/>
-	<property name="def_laser_front_pitch" value="0"/>
-	<property name="def_laser_front_yaw" value="0"/>
+	<property name="def_laser_front_roll" value="0.0"/>
+	<property name="def_laser_front_pitch" value="0.0"/>
+	<property name="def_laser_front_yaw" value="0.0"/>
 
 	<!-- laser rear mount positions | relative to base_link -->
 	<property name="def_laser_rear_x" value="-0.325"/>
 	<property name="def_laser_rear_y" value="0.0"/>
 	<property name="def_laser_rear_z" value="0.135"/>
-	<property name="def_laser_rear_roll" value="0"/>
-	<property name="def_laser_rear_pitch" value="0"/>
+	<property name="def_laser_rear_roll" value="0.0"/>
+	<property name="def_laser_rear_pitch" value="0.0"/>
 	<property name="def_laser_rear_yaw" value="3.1415926"/>
 
 	<!-- laser top mount positions | relative to base_link -->
 	<property name="def_laser_top_x" value="-0.252"/>
 	<property name="def_laser_top_y" value="0.0"/>
 	<property name="def_laser_top_z" value="0.42"/>
-	<property name="def_laser_top_roll" value="0"/>
-	<property name="def_laser_top_pitch" value="0"/>
-	<property name="def_laser_top_yaw" value="0"/>
+	<property name="def_laser_top_roll" value="0.0"/>
+	<property name="def_laser_top_pitch" value="0.0"/>
+	<property name="def_laser_top_yaw" value="0.0"/>
 
-	<!-- ***************** -->
-	<!-- robot calibration -->
-	<!-- ***************** -->
+	<!-- *********************** -->
+	<!-- upper robot calibration -->
+	<!-- *********************** -->
 	<!-- tray mount positions | relative to base_link -->
 	<property name="def_tray_x" value="0.2406"/>
 	<property name="def_tray_y" value="0.1900"/>
 	<property name="def_tray_z" value="0.7320"/>
 	<property name="def_tray_roll" value="2.3561"/>
-	<property name="def_tray_pitch" value="0"/>
-	<property name="def_tray_yaw" value="0"/>
+	<property name="def_tray_pitch" value="0.0"/>
+	<property name="def_tray_yaw" value="0.0"/>
 
 	<!-- torso mount positions | relative to base_link -->
 	<property name="def_torso_x" value="0.1535525935"/>
@@ -75,15 +75,12 @@
 	<!-- kinematic chain reference positions -->
 	<!-- *********************************** -->
 	<!-- torso chain calibration_offest! | relative to reference position (see below)-->
-
-	<!-- torso reference positions | used as calibration_rising for torso chain -->
-	<!-- ! set these values to make torso straight with (0, 0, 0) joint angles ! -->
 	<property name="def_torso_lower_neck_tilt_ref" value="-0.299259484"/>
 	<property name="def_torso_pan_ref" value="0.03021506"/>
 	<property name="def_torso_upper_neck_tilt_ref" value="0.207151622"/>
 
 	<!-- tray reference position | used as calibration_rising for tray chain -->
-	<property name="def_tray_ref" value="0"/>
+	<property name="def_tray_ref" value="0.0"/>
 
 	<!-- head camera axis reference position | used as calibration_rising for head axis chain -->
 	<property name="def_head_axis_ref" value="0.15"/>

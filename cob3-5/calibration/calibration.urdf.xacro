@@ -1,4 +1,5 @@
-<?xml version="1.0" ?><robot>
+<?xml version="1.0" ?>
+<robot>
 	<include filename="$(find cob_calibration_data)/cob3-5/calibration/calibration_default.urdf.xacro" />
 	<include filename="$(find cob_calibration_data)/cob3-5/calibration/calibration_offset.urdf.xacro" />
 	<!-- ***************** -->
@@ -97,7 +98,6 @@
 	<property name="arm_5_ref" value="${def_arm_5_ref+offset_arm_5_ref}"/>
 	<property name="arm_6_ref" value="${def_arm_6_ref+offset_arm_6_ref}"/>
 	<property name="arm_7_ref" value="${def_arm_7_ref+offset_arm_7_ref}"/>
-
 
 	<!-- ***************************** -->
 	<!-- camera calibration properties -->

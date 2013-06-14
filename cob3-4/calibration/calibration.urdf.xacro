@@ -1,4 +1,5 @@
-<?xml version="1.0" ?><robot>
+<?xml version="1.0" ?>
+<robot>
 	<include filename="$(find cob_calibration_data)/cob3-4/calibration/calibration_default.urdf.xacro" />
 	<include filename="$(find cob_calibration_data)/cob3-4/calibration/calibration_offset.urdf.xacro" />
 	<!-- ***************** -->
@@ -89,9 +90,14 @@
 	<!-- head camera axis reference position | used as calibration_rising for head axis chain -->
 	<property name="head_axis_ref" value="${def_head_axis_ref+offset_head_axis_ref}"/>
 
-
 	<!-- arm reference positions | used as calibration_rising for arm chain-->
-	<!-- not needed for lbr, use nonius scala -->
+	<property name="arm_1_ref" value="${def_arm_1_ref+offset_arm_1_ref}"/>
+	<property name="arm_2_ref" value="${def_arm_2_ref+offset_arm_2_ref}"/>
+	<property name="arm_3_ref" value="${def_arm_3_ref+offset_arm_3_ref}"/>
+	<property name="arm_4_ref" value="${def_arm_4_ref+offset_arm_4_ref}"/>
+	<property name="arm_5_ref" value="${def_arm_5_ref+offset_arm_5_ref}"/>
+	<property name="arm_6_ref" value="${def_arm_6_ref+offset_arm_6_ref}"/>
+	<property name="arm_7_ref" value="${def_arm_7_ref+offset_arm_7_ref}"/>
 
 	<!-- ***************************** -->
 	<!-- camera calibration properties -->
