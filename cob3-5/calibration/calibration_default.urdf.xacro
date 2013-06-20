@@ -31,12 +31,13 @@
 	<!-- robot calibration -->
 	<!-- ***************** -->
 	<!-- tray mount positions | relative to base_link -->
-	<property name="def_tray_x" value="0.2406"/>
-	<property name="def_tray_y" value="0.1900"/>
-	<property name="def_tray_z" value="0.7320"/>
-	<property name="def_tray_roll" value="2.3561"/>
-	<property name="def_tray_pitch" value="0"/>
+	<property name="def_tray_x" value="0.186"/>
+	<property name="def_tray_y" value="0.113"/>
+	<property name="def_tray_z" value="0.721"/>
+	<property name="def_tray_roll" value="-1.5707"/>
+	<property name="def_tray_pitch" value="0.35"/>
 	<property name="def_tray_yaw" value="0"/>
+
 
 	<!-- torso mount positions | relative to base_link -->
 	<property name="def_torso_x" value="0.1535525935"/>
@@ -83,7 +84,9 @@
 	<property name="def_torso_upper_neck_tilt_ref" value="0.207151622"/>
 
 	<!-- tray reference position | used as calibration_rising for tray chain -->
-	<property name="def_tray_ref" value="0"/>
+	<property name="def_tray_1_ref" value="0.0"/>
+	<property name="def_tray_2_ref" value="0.0"/>
+	<property name="def_tray_3_ref" value="0.0"/>
 
 	<!-- head camera axis reference position | used as calibration_rising for head axis chain -->
 	<property name="def_head_axis_ref" value="0.15"/>
