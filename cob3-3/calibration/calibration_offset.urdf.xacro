@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<robot>
+<?xml version="1.0" ?><robot>
 	<!-- ***************** -->
 	<!-- base calibration -->
 	<!-- ***************** -->
@@ -39,12 +38,12 @@
 	<property name="offset_tray_yaw" value="0.0"/>
 
 	<!-- torso mount positions | relative to base_link -->
-	<property name="offset_torso_x" value="0.0"/>
+	<property name="offset_torso_x" value="-1.53138e-05"/>
 	<property name="offset_torso_y" value="0.0"/>
-	<property name="offset_torso_z" value="0.0"/>
-	<property name="offset_torso_roll" value="0.0"/>
-	<property name="offset_torso_pitch" value="0.0"/>
-	<property name="offset_torso_yaw" value="0.0"/>
+	<property name="offset_torso_z" value="-4.00721e-05"/>
+	<property name="offset_torso_roll" value="-2.64420000002e-05"/>
+	<property name="offset_torso_pitch" value="-1.63655000001e-05"/>
+	<property name="offset_torso_yaw" value="-7.03429999982e-06"/>
 
 	<!-- head mount positions | relative to head_cover_link -->
 	<property name="offset_head_x" value="0.0"/>
@@ -55,12 +54,12 @@
 	<property name="offset_head_yaw" value="0.0"/>
 	
 	<!-- arm mount positions | relative to base_link -->
-	<property name="offset_arm_x" value="0.0"/>
-	<property name="offset_arm_y" value="0.0"/>
-	<property name="offset_arm_z" value="0.0"/>
-	<property name="offset_arm_roll" value="0.0"/>
-	<property name="offset_arm_pitch" value="0.0"/>
-	<property name="offset_arm_yaw" value="0.0"/>
+	<property name="offset_arm_x" value="-0.0115196392"/>
+	<property name="offset_arm_y" value="-0.0048953067"/>
+	<property name="offset_arm_z" value="0.0165425801"/>
+	<property name="offset_arm_roll" value="-0.0139326886"/>
+	<property name="offset_arm_pitch" value="0.0417090276"/>
+	<property name="offset_arm_yaw" value="0.0008876528"/>
 	
 	
 	<!-- sdh mount positions | relative to arm_7_link -->
