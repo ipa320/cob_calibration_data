@@ -47,7 +47,7 @@
 	<property name="torso_roll" value="${def_torso_roll+offset_torso_roll}"/>
 	<property name="torso_pitch" value="${def_torso_pitch+offset_torso_pitch}"/>
 	<property name="torso_yaw" value="${def_torso_yaw+offset_torso_yaw}"/>
-	
+
 	<!-- head mount positions | relative to head_cover_link -->
 	<property name="head_x" value="${def_head_x+offset_head_x}"/>
 	<property name="head_y" value="${def_head_y+offset_head_y}"/>
@@ -55,7 +55,7 @@
 	<property name="head_roll" value="${def_head_roll+offset_head_roll}"/>
 	<property name="head_pitch" value="${def_head_pitch+offset_head_pitch}"/>
 	<property name="head_yaw" value="${def_head_yaw+offset_head_yaw}"/>
-	
+
 	<!-- arm mount positions | relative to base_link -->
 	<property name="arm_x" value="${def_arm_x+offset_arm_x}"/>
 	<property name="arm_y" value="${def_arm_y+offset_arm_y}"/>
