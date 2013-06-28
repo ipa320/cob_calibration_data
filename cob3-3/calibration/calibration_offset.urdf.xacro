@@ -54,12 +54,12 @@
 	<property name="offset_head_yaw" value="0.0"/>
 	
 	<!-- arm mount positions | relative to base_link -->
-	<property name="offset_arm_x" value="-0.0115196392"/>
-	<property name="offset_arm_y" value="-0.0048953067"/>
-	<property name="offset_arm_z" value="0.0165425801"/>
-	<property name="offset_arm_roll" value="-0.0139326886"/>
-	<property name="offset_arm_pitch" value="0.0417090276"/>
-	<property name="offset_arm_yaw" value="0.0008876528"/>
+	<property name="offset_arm_x" value="-0.0107706055"/>
+	<property name="offset_arm_y" value="-0.0046001478"/>
+	<property name="offset_arm_z" value="0.0143555925"/>
+	<property name="offset_arm_roll" value="-0.0138563669"/>
+	<property name="offset_arm_pitch" value="0.0405595652"/>
+	<property name="offset_arm_yaw" value="0.0022031391"/>
 	
 	
 	<!-- sdh mount positions | relative to arm_7_link -->
@@ -100,26 +100,26 @@
 	<!-- camera calibration properties -->
 	<!-- ***************************** -->
 	<!-- left | handeye calibration | relative to head_axis_link -->
-	<property name="offset_cam_l_x" value="0.0"/>
-	<property name="offset_cam_l_y" value="0.0"/>
-	<property name="offset_cam_l_z" value="0.0"/>
-	<property name="offset_cam_l_roll" value="0.0"/>
-	<property name="offset_cam_l_pitch" value="0.0"/>
-	<property name="offset_cam_l_yaw" value="0.0"/>
+	<property name="offset_cam_l_x" value="0.0108228283"/>
+	<property name="offset_cam_l_y" value="0.0048218277"/>
+	<property name="offset_cam_l_z" value="0.0050190907"/>
+	<property name="offset_cam_l_roll" value="0.6920787591"/>
+	<property name="offset_cam_l_pitch" value="0.0063666588"/>
+	<property name="offset_cam_l_yaw" value="-0.793372829"/>
 
 	<!-- right | stereo baseline calibration | relative to left camera -->
-	<property name="offset_cam_r_x" value="0.0"/>
-	<property name="offset_cam_r_y" value="0.0"/>
-	<property name="offset_cam_r_z" value="0.0"/>
-	<property name="offset_cam_r_roll" value="0.0"/>
-	<property name="offset_cam_r_pitch" value="0.0"/>
-	<property name="offset_cam_r_yaw" value="0.0"/>
+	<property name="offset_cam_r_x" value="9.13001050804e-05"/>
+	<property name="offset_cam_r_y" value="0.000161159679716"/>
+	<property name="offset_cam_r_z" value="0.00194508180528"/>
+	<property name="offset_cam_r_roll" value="-0.00126748223539"/>
+	<property name="offset_cam_r_pitch" value="0.000381216578354"/>
+	<property name="offset_cam_r_yaw" value="-0.000407168399152"/>
 
 	<!-- cam3d | handeye calibration | relative to head_axis_link -->
-	<property name="offset_cam3d_x" value="0.0"/>
-	<property name="offset_cam3d_y" value="0.0"/>
-	<property name="offset_cam3d_z" value="0.0"/>
-	<property name="offset_cam3d_roll" value="0.0"/>
-	<property name="offset_cam3d_pitch" value="0.0"/>
-	<property name="offset_cam3d_yaw" value="0.0"/>
+	<property name="offset_cam3d_x" value="0.142271436952"/>
+	<property name="offset_cam3d_y" value="0.019200867007"/>
+	<property name="offset_cam3d_z" value="-0.00854395137163"/>
+	<property name="offset_cam3d_roll" value="0.499150878681"/>
+	<property name="offset_cam3d_pitch" value="1.56377556076"/>
+	<property name="offset_cam3d_yaw" value="-0.54721349722"/>
 </robot>
