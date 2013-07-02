@@ -27,9 +27,9 @@
 	<property name="def_laser_top_pitch" value="0"/>
 	<property name="def_laser_top_yaw" value="0"/>
 
-	<!-- ***************** -->
-	<!-- robot calibration -->
-	<!-- ***************** -->
+	<!-- *********************** -->
+	<!-- upper robot calibration -->
+	<!-- *********************** -->
 	<!-- tray mount positions | relative to base_link -->
 	<property name="def_tray_x" value="0.186"/>
 	<property name="def_tray_y" value="0.113"/>

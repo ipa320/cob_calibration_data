@@ -1,4 +1,5 @@
-<?xml version="1.0" ?><robot>
+<?xml version="1.0" ?>
+<robot>
 	<!-- ***************** -->
 	<!-- base calibration -->
 	<!-- ***************** -->
@@ -53,7 +54,7 @@
 	<property name="offset_head_pitch" value="0.0"/>
 	<property name="offset_head_yaw" value="0.0"/>
 
-<!-- arm mount positions | relative to base_link -->
+	<!-- arm mount positions | relative to base_link -->
 	<property name="offset_arm_x" value="0.0"/>
 	<property name="offset_arm_y" value="0.0"/>
 	<property name="offset_arm_z" value="0.0"/>
