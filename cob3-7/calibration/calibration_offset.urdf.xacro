@@ -1,5 +1,4 @@
-<?xml version="1.0" ?>
-<robot>
+<?xml version="1.0" ?><robot>
 	<!-- ***************** -->
 	<!-- base calibration -->
 	<!-- ***************** -->
@@ -39,37 +38,25 @@
 	<property name="offset_tray_yaw" value="0.0"/>
 
 	<!-- torso mount positions | relative to base_link -->
-	<property name="offset_torso_x" value="0.0"/>
-	<property name="offset_torso_y" value="0.0"/>
-	<property name="offset_torso_z" value="0.0"/>
-	<property name="offset_torso_roll" value="0.0"/>
-	<property name="offset_torso_pitch" value="0.0"/>
-	<property name="offset_torso_yaw" value="0.0"/>
+	<property name="offset_torso_x" value="0"/>
+	<property name="offset_torso_y" value="0"/>
+	<property name="offset_torso_z" value="0"/>
+	<property name="offset_torso_roll" value="0"/>
+	<property name="offset_torso_pitch" value="0"/>
+	<property name="offset_torso_yaw" value="0"/>
 
 	<!-- head mount positions | relative to head_cover_link -->
-	<property name="offset_head_x" value="0.0"/>
-	<property name="offset_head_y" value="0.0"/>
-	<property name="offset_head_z" value="0.0"/>
-	<property name="offset_head_roll" value="0.0"/>
-	<property name="offset_head_pitch" value="0.0"/>
-	<property name="offset_head_yaw" value="0.0"/>
+	<property name="offset_head_x" value="0"/>
+	<property name="offset_head_y" value="0"/>
+	<property name="offset_head_z" value="0"/>
+	<property name="offset_head_roll" value="0"/>
+	<property name="offset_head_pitch" value="0"/>
+	<property name="offset_head_yaw" value="0"/>
 
-	<!-- arm mount positions | relative to base_link -->
-	<property name="offset_arm_x" value="0.0"/>
-	<property name="offset_arm_y" value="0.0"/>
-	<property name="offset_arm_z" value="0.0"/>
-	<property name="offset_arm_roll" value="0.0"/>
-	<property name="offset_arm_pitch" value="0.0"/>
-	<property name="offset_arm_yaw" value="0.0"/>
-	
+         <!-- arm mount positions | relative to base_link -->
+
 	
 	<!-- sdh mount positions | relative to arm_7_link -->
-	<property name="offset_sdh_x" value="0.0"/>
-	<property name="offset_sdh_y" value="0.0"/>
-	<property name="offset_sdh_z" value="0.0"/>
-	<property name="offset_sdh_roll" value="0.0"/>
-	<property name="offset_sdh_pitch" value="0.0"/>
-	<property name="offset_sdh_yaw" value="0.0"/>
 
 	<!-- *********************************** -->
 	<!-- kinematic chain reference positions -->
@@ -83,32 +70,24 @@
 	<property name="offset_torso_upper_neck_tilt_ref" value="0.0"/>
 
 	<!-- tray reference position | used as calibration_rising for tray chain -->
-	<property name="offset_tray_1_ref" value="0.0"/>
-	<property name="offset_tray_2_ref" value="0.0"/>
-	<property name="offset_tray_3_ref" value="0.0"/>
+	<property name="offset_tray_ref" value="0.0"/>
 
 	<!-- head camera axis reference position | used as calibration_rising for head axis chain -->
 	<property name="offset_head_axis_ref" value="0.0"/>
 
 	<!-- arm reference positions | used as calibration_rising for arm chain-->
-	<property name="offset_arm_1_ref" value="0.0"/>
-	<property name="offset_arm_2_ref" value="0.0"/>
-	<property name="offset_arm_3_ref" value="0.0"/>
-	<property name="offset_arm_4_ref" value="0.0"/>
-	<property name="offset_arm_5_ref" value="0.0"/>
-	<property name="offset_arm_6_ref" value="0.0"/>
-	<property name="offset_arm_7_ref" value="0.0"/>
+	<!-- not needed for lbr, use nonius scala -->
 
 	<!-- ***************************** -->
 	<!-- camera calibration properties -->
 	<!-- ***************************** -->
 	<!-- left | handeye calibration | relative to head_axis_link -->
-	<property name="offset_cam_l_x" value="0.0"/>
-	<property name="offset_cam_l_y" value="0.0"/>
-	<property name="offset_cam_l_z" value="0.0"/>
-	<property name="offset_cam_l_roll" value="0.0"/>
-	<property name="offset_cam_l_pitch" value="0.0"/>
-	<property name="offset_cam_l_yaw" value="0.0"/>
+	<property name="offset_cam_l_x" value="0"/>
+	<property name="offset_cam_l_y" value="0"/>
+	<property name="offset_cam_l_z" value="0"/>
+	<property name="offset_cam_l_roll" value="0"/>
+	<property name="offset_cam_l_pitch" value="0"/>
+	<property name="offset_cam_l_yaw" value="0"/>
 
 	<!-- right | stereo baseline calibration | relative to left camera -->
 	<property name="offset_cam_r_x" value="0.0"/>
@@ -119,10 +98,10 @@
 	<property name="offset_cam_r_yaw" value="0.0"/>
 
 	<!-- cam3d | handeye calibration | relative to head_axis_link -->
-	<property name="offset_cam3d_x" value="0.0"/>
-	<property name="offset_cam3d_y" value="0.0"/>
-	<property name="offset_cam3d_z" value="0.0"/>
-	<property name="offset_cam3d_roll" value="0.0"/>
-	<property name="offset_cam3d_pitch" value="0.0"/>
-	<property name="offset_cam3d_yaw" value="0.0"/>
+	<property name="offset_cam3d_x" value="0"/>
+	<property name="offset_cam3d_y" value="0"/>
+	<property name="offset_cam3d_z" value="0"/>
+	<property name="offset_cam3d_roll" value="0"/>
+	<property name="offset_cam3d_pitch" value="0"/>
+	<property name="offset_cam3d_yaw" value="0"/>
 </robot>
