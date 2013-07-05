@@ -5,6 +5,21 @@ project(cob_calibration_data)
 
 find_package(catkin REQUIRED )
 
+# rostest for robots
+SET(robotlist
+cob3-1
+cob3-2
+cob3-3
+cob3-4
+cob3-5
+cob3-6
+raw3-1
+raw3-2
+raw3-3
+raw3-4
+desire
+)
+
 # include_directories(include ${Boost_INCLUDE_DIR} ${catkin_INCLUDE_DIRS})
 # TODO: fill in what other packages will need to use this package
 ## DEPENDS: system dependencies of this project that dependent projects also need
@@ -17,3 +32,9 @@ catkin_package(
     INCLUDE_DIRS # TODO include
     LIBRARIES # TODO
 )
+
+FOREACH(robot ${robotlist})
+    install(DIRECTORY ${robot}/
+        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/${robot}
+    )
+ENDFOREACH(robot)
