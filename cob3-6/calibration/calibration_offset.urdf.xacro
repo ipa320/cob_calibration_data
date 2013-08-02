@@ -45,7 +45,7 @@
 	<property name="offset_torso_roll" value="0.0"/>
 	<property name="offset_torso_pitch" value="0.0"/>
 	<property name="offset_torso_yaw" value="0.0"/>
-	
+
 	<!-- head mount positions | relative to head_cover_link -->
 	<property name="offset_head_x" value="0.0"/>
 	<property name="offset_head_y" value="0.0"/>
@@ -53,7 +53,7 @@
 	<property name="offset_head_roll" value="0.0"/>
 	<property name="offset_head_pitch" value="0.0"/>
 	<property name="offset_head_yaw" value="0.0"/>
-	
+
 	<!-- arm mount positions | relative to base_link -->
 	<property name="offset_arm_x" value="0.0"/>
 	<property name="offset_arm_y" value="0.0"/>
@@ -83,9 +83,9 @@
 	<property name="offset_torso_upper_neck_tilt_ref" value="0.0"/>
 
 	<!-- tray reference position | used as calibration_rising for tray chain -->
-	<property name="offset_tray_1_ref" value="0"/>
-	<property name="offset_tray_2_ref" value="0"/>
-	<property name="offset_tray_3_ref" value="0"/>
+	<property name="offset_tray_1_ref" value="0.0"/>
+	<property name="offset_tray_2_ref" value="0.0"/>
+	<property name="offset_tray_3_ref" value="0.0"/>
 
 	<!-- head camera axis reference position | used as calibration_rising for head axis chain -->
 	<property name="offset_head_axis_ref" value="0.0"/>
