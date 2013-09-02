@@ -15,7 +15,7 @@
 
 	<!-- torso reference positions | used as calibration_rising for torso chain -->
 	<!-- ! set these values to make torso straight with (0, 0, 0) joint angles ! -->
-	<property name="torso_pan_ref" value="-0.4363323130"/>
+	<property name="torso_pan_ref" value="0.43"/>
 	<property name="torso_tilt_ref" value="0.0"/>
 
 	<!--torso mount positions | relative to base_link-->
@@ -32,7 +32,7 @@
 	<property name="def_arm_z" value="0.565"/>
 	<property name="def_arm_roll" value="0"/>
 	<property name="def_arm_pitch" value="0"/>
-	<property name="def_arm_yaw" value="3.141"/>
+	<property name="def_arm_yaw" value="3.927"/>
 
 	<!-- gripper mount positions | relative to arm_ee_link -->
 	<property name="def_gripper_x" value="0.0"/>
