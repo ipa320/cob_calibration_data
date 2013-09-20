@@ -18,7 +18,7 @@
 	<property name="offset_arm_z" value="-0.02"/>
 	<property name="offset_arm_roll" value="0.0"/>
 	<property name="offset_arm_pitch" value="0.0"/>
-	<property name="offset_arm_yaw" value="-0.0523"/>
+	<property name="offset_arm_yaw" value="0.0"/>
 
 	<!-- gripper mount positions | relative to arm_ee_link -->
 	<property name="offset_gripper_x" value="0.0"/>
