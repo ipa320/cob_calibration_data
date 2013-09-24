@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><robot>
-	<include filename="$(find cob_calibration_data)/cob3-4/calibration/calibration_default.urdf.xacro" />
-	<include filename="$(find cob_calibration_data)/cob3-4/calibration/calibration_offset.urdf.xacro" />
+	<include filename="$(find cob_calibration_data)/cob3-7/calibration/calibration_default.urdf.xacro" />
+	<include filename="$(find cob_calibration_data)/cob3-7/calibration/calibration_offset.urdf.xacro" />
 	<!-- ***************** -->
 	<!-- base calibration -->
 	<!-- ***************** -->
@@ -55,10 +55,22 @@
 	<property name="head_pitch" value="${def_head_pitch+offset_head_pitch}"/>
 	<property name="head_yaw" value="${def_head_yaw+offset_head_yaw}"/>
 
-	<!-- arm mount positions | relative to base_link -->
 	
-	
-	<!-- sdh mount positions | relative to arm_7_link -->
+	<!-- ur_conector mount positions | relative to base_link -->
+	<property name="ur_conector_x" value="${def_ur_conector_x+offset_ur_conector_x}"/>
+	<property name="ur_conector_y" value="${def_ur_conector_y+offset_ur_conector_y}"/>
+	<property name="ur_conector_z" value="${def_ur_conector_z+offset_ur_conector_z}"/>
+	<property name="ur_conector_roll" value="${def_ur_conector_roll+offset_ur_conector_roll}"/>
+	<property name="ur_conector_pitch" value="${def_ur_conector_pitch+offset_ur_conector_pitch}"/>
+	<property name="ur_conector_yaw" value="${def_ur_conector_yaw+offset_ur_conector_yaw}"/>
+
+	<!-- arm mount positions | relative to ur_conector_1_link -->
+	<property name="arm_x" value="${def_arm_x+offset_arm_x}"/>
+	<property name="arm_y" value="${def_arm_y+offset_arm_y}"/>
+	<property name="arm_z" value="${def_arm_z+offset_arm_z}"/>
+	<property name="arm_roll" value="${def_arm_roll+offset_arm_roll}"/>
+	<property name="arm_pitch" value="${def_arm_pitch+offset_arm_pitch}"/>
+	<property name="arm_yaw" value="${def_arm_yaw+offset_arm_yaw}"/>
 
 	<!-- *********************************** -->
 	<!-- kinematic chain reference positions -->
