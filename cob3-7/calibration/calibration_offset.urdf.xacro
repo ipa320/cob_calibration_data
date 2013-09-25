@@ -53,10 +53,21 @@
 	<property name="offset_head_pitch" value="0"/>
 	<property name="offset_head_yaw" value="0"/>
 
-         <!-- arm mount positions | relative to base_link -->
+	<!-- ur_conector mount positions | relative to base_link --> 
+	<property name="offset_ur_conector_x" value="0"/>
+	<property name="offset_ur_conector_y" value="0"/>
+	<property name="offset_ur_conector_z" value="0"/>
+	<property name="offset_ur_conector_roll" value="0"/>
+	<property name="offset_ur_conector_pitch" value="0"/>
+	<property name="offset_ur_conector_yaw" value="0"/>
 
-	
-	<!-- sdh mount positions | relative to arm_7_link -->
+	<!-- arm mount positions | relative to ur_conector_link --> 
+	<property name="offset_arm_x" value="0"/>
+	<property name="offset_arm_y" value="0"/>
+	<property name="offset_arm_z" value="0"/>
+	<property name="offset_arm_roll" value="0"/>
+	<property name="offset_arm_pitch" value="0"/>
+	<property name="offset_arm_yaw" value="0"/>
 
 	<!-- *********************************** -->
 	<!-- kinematic chain reference positions -->
@@ -73,7 +84,7 @@
 	<property name="offset_tray_ref" value="0.0"/>
 
 	<!-- head camera axis reference position | used as calibration_rising for head axis chain -->
-	<property name="offset_head_axis_ref" value="0.0"/>
+	<property name="offset_head_axis_ref" value="0"/>
 
 	<!-- arm reference positions | used as calibration_rising for arm chain-->
 	<!-- not needed for lbr, use nonius scala -->
