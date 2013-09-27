@@ -53,22 +53,23 @@
 	<property name="def_head_roll" value="0.0"/>
 	<property name="def_head_pitch" value="0.0"/>
 	<property name="def_head_yaw" value="0.0"/>
-	
-	<!-- ur_conector mount positions | relative to base_link --> 
-	<property name="def_ur_conector_x" value="0"/>
-	<property name="def_ur_conector_y" value="0"/>
-	<property name="def_ur_conector_z" value="0.775"/>
-	<property name="def_ur_conector_roll" value="0"/>
-	<property name="def_ur_conector_pitch" value="0"/>
-	<property name="def_ur_conector_yaw" value="0"/>
 
-	<!-- arm mount positions | relative to ur_conector_link --> 
+	<!-- ur_connector mount positions | relative to base_link --> 
+	<property name="def_ur_connector_x" value="0"/>
+	<property name="def_ur_connector_y" value="0"/>
+	<property name="def_ur_connector_z" value="0.775"/>
+	<property name="def_ur_connector_roll" value="0"/>
+	<property name="def_ur_connector_pitch" value="0"/>
+	<property name="def_ur_connector_yaw" value="0"/>
+
+	<!-- arm mount positions | relative to ur_connector_link --> 
 	<property name="def_arm_x" value="0.1712"/>
 	<property name="def_arm_y" value="-0.1776"/>
 	<property name="def_arm_z" value="0.0551"/>
 	<property name="def_arm_roll" value="-0.5236"/>
 	<property name="def_arm_pitch" value="0"/>
 	<property name="def_arm_yaw" value="-1.5708"/>
+
 
 	<!-- *********************************** -->
 	<!-- kinematic chain reference positions -->
@@ -90,7 +91,7 @@
 	<property name="def_tray_ref" value="0"/>
 
 	<!-- head camera axis reference position | used as calibration_rising for head axis chain -->
-	<property name="def_head_axis_ref" value="0.4"/>
+	<property name="def_head_axis_ref" value="0.0"/>
 
 	<!-- arm reference positions | used as calibration_rising for arm chain-->
 	<!-- not needed for lbr, use nonius scala -->
