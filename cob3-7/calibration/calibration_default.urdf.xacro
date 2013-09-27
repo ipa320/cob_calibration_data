@@ -54,15 +54,15 @@
 	<property name="def_head_pitch" value="0.0"/>
 	<property name="def_head_yaw" value="0.0"/>
 
-	<!-- ur_conector mount positions | relative to base_link --> 
-	<property name="def_ur_conector_x" value="0"/>
-	<property name="def_ur_conector_y" value="0"/>
-	<property name="def_ur_conector_z" value="0.775"/>
-	<property name="def_ur_conector_roll" value="0"/>
-	<property name="def_ur_conector_pitch" value="0"/>
-	<property name="def_ur_conector_yaw" value="0"/>
+	<!-- ur_connector mount positions | relative to base_link --> 
+	<property name="def_ur_connector_x" value="0"/>
+	<property name="def_ur_connector_y" value="0"/>
+	<property name="def_ur_connector_z" value="0.775"/>
+	<property name="def_ur_connector_roll" value="0"/>
+	<property name="def_ur_connector_pitch" value="0"/>
+	<property name="def_ur_connector_yaw" value="0"/>
 
-	<!-- arm mount positions | relative to ur_conector_link --> 
+	<!-- arm mount positions | relative to ur_connector_link --> 
 	<property name="def_arm_x" value="0.1712"/>
 	<property name="def_arm_y" value="-0.1776"/>
 	<property name="def_arm_z" value="0.0551"/>
