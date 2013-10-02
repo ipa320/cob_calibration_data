@@ -100,6 +100,12 @@
 	<!-- ***************************** -->
 	<!-- camera calibration properties -->
 	<!-- ***************************** -->
+	<property name="offset_cam_reference_x" value="0.0"/>
+	<property name="offset_cam_reference_y" value="0.0"/>
+	<property name="offset_cam_reference_z" value="0.0"/>
+	<property name="offset_cam_reference_roll" value="0.0"/>
+	<property name="offset_cam_reference_pitch" value="0.0"/>
+	<property name="offset_cam_reference_yaw" value="0.0"/>
 	<!-- left | handeye calibration | relative to head_axis_link -->
 	<property name="offset_cam_l_x" value="0.0"/>
 	<property name="offset_cam_l_y" value="0.0"/>
