@@ -69,6 +69,14 @@
 	<property name="offset_arm_roll" value="0.0"/>
 	<property name="offset_arm_pitch" value="0.0"/>
 	<property name="offset_arm_yaw" value="0.0"/>
+	
+	<!-- sdh mount positions | relative to arm_7_link -->
+	<property name="offset_sdh_x" value="0.0"/>
+	<property name="offset_sdh_y" value="0.0"/>
+	<property name="offset_sdh_z" value="0.0"/>
+	<property name="offset_sdh_roll" value="0.0"/>
+	<property name="offset_sdh_pitch" value="0.0"/>
+	<property name="offset_sdh_yaw" value="0.0"/>
 
 	<!-- *********************************** -->
 	<!-- kinematic chain reference positions -->
