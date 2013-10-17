@@ -53,7 +53,7 @@
 	<property name="offset_head_roll" value="0.0"/>
 	<property name="offset_head_pitch" value="0.0"/>
 	<property name="offset_head_yaw" value="0.0"/>
-	
+
 	<!-- ur_connector mount positions | relative to base_link --> 
 	<property name="offset_ur_connector_x" value="0"/>
 	<property name="offset_ur_connector_y" value="0"/>
@@ -69,7 +69,6 @@
 	<property name="offset_arm_roll" value="0.0"/>
 	<property name="offset_arm_pitch" value="0.0"/>
 	<property name="offset_arm_yaw" value="0.0"/>
-	
 	
 	<!-- sdh mount positions | relative to arm_7_link -->
 	<property name="offset_sdh_x" value="0.0"/>
