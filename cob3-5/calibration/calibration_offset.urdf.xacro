@@ -83,9 +83,15 @@
 	<property name="offset_torso_upper_neck_tilt_ref" value="0.0"/>
 
 	<!-- tray reference position | used as calibration_rising for tray chain -->
+<<<<<<< HEAD
+	<property name="offset_tray_1_ref" value="0"/>
+	<property name="offset_tray_2_ref" value="0"/>
+	<property name="offset_tray_3_ref" value="0"/>
+=======
 	<property name="offset_tray_1_ref" value="0.0"/>
 	<property name="offset_tray_2_ref" value="0.0"/>
 	<property name="offset_tray_3_ref" value="0.0"/>
+>>>>>>> 5cb10ef2c38d7063040a0e04160d7bf58d130836
 
 	<!-- head camera axis reference position | used as calibration_rising for head axis chain -->
 	<property name="offset_head_axis_ref" value="0.0"/>
