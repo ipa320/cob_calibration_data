@@ -20,6 +20,14 @@
 	<property name="offset_torso_pitch" value="0.0"/>
 	<property name="offset_torso_yaw" value="0.0"/>
 
+	<!-- head mount positions | relative to head_cover_link -->
+	<property name="offset_head_x" value="0.0"/>
+	<property name="offset_head_y" value="0.0"/>
+	<property name="offset_head_z" value="0.0"/>
+	<property name="offset_head_roll" value="0.0"/>
+	<property name="offset_head_pitch" value="0.0"/>
+	<property name="offset_head_yaw" value="0.0"/>
+
 	<!-- arm mount positions | relative to base_link -->
 	<property name="offset_arm_x" value="-0.03"/>
 	<property name="offset_arm_y" value="0.0"/>
@@ -40,12 +48,20 @@
 	<!-- camera calibration properties -->
 	<!-- ***************************** -->
 	<!-- left | handeye calibration | relative to head_axis_link -->
-	<property name="offset_cam_ref_x" value="0.0"/>
-	<property name="offset_cam_ref_y" value="0.0"/>
-	<property name="offset_cam_ref_z" value="0.0"/>
-	<property name="offset_cam_ref_roll" value="0.0"/>
-	<property name="offset_cam_ref_pitch" value="0.0"/>
-	<property name="offset_cam_ref_yaw" value="0.0"/>
+	<property name="offset_cam_reference_x" value="0.0"/>
+	<property name="offset_cam_reference_y" value="0.0"/>
+	<property name="offset_cam_reference_z" value="0.0"/>
+	<property name="offset_cam_reference_roll" value="0.0"/>
+	<property name="offset_cam_reference_pitch" value="0.0"/>
+	<property name="offset_cam_reference_yaw" value="0.0"/>
+	
+	<!-- left | handeye calibration | relative to head_axis_link -->
+	<property name="offset_cam_l_x" value="0.0"/>
+	<property name="offset_cam_l_y" value="0.0"/>
+	<property name="offset_cam_l_z" value="0.0"/>
+	<property name="offset_cam_l_roll" value="0.0"/>
+	<property name="offset_cam_l_pitch" value="0.0"/>
+	<property name="offset_cam_l_yaw" value="0.0"/>
 
 	<!-- right | stereo baseline calibration | relative to left camera -->
 	<property name="offset_cam_r_x" value="0.0"/>
