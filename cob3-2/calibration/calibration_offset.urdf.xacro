@@ -53,15 +53,14 @@
 	<property name="offset_head_roll" value="0.0"/>
 	<property name="offset_head_pitch" value="0.0"/>
 	<property name="offset_head_yaw" value="0.0"/>
-
-<!-- arm mount positions | relative to base_link -->
+	
+	<!-- arm mount positions | relative to base_link -->
 	<property name="offset_arm_x" value="0.0"/>
 	<property name="offset_arm_y" value="0.0"/>
 	<property name="offset_arm_z" value="0.0"/>
 	<property name="offset_arm_roll" value="0.0"/>
 	<property name="offset_arm_pitch" value="0.0"/>
 	<property name="offset_arm_yaw" value="0.0"/>
-	
 	
 	<!-- sdh mount positions | relative to arm_7_link -->
 	<property name="offset_sdh_x" value="0.0"/>
@@ -90,18 +89,26 @@
 	<property name="offset_head_axis_ref" value="0.0"/>
 
 	<!-- arm reference positions | used as calibration_rising for arm chain-->
-	<property name="offset_arm_1_ref" value="0.0" />
-	<property name="offset_arm_2_ref" value="0.0" />
-	<property name="offset_arm_3_ref" value="0.0" />
-	<property name="offset_arm_4_ref" value="0.0" />
-	<property name="offset_arm_5_ref" value="0.0" />
-	<property name="offset_arm_6_ref" value="0.0" />
-	<property name="offset_arm_7_ref" value="0.0" />
+	<property name="offset_arm_1_ref" value="0.0"/>
+	<property name="offset_arm_2_ref" value="0.0"/>
+	<property name="offset_arm_3_ref" value="0.0"/>
+	<property name="offset_arm_4_ref" value="0.0"/>
+	<property name="offset_arm_5_ref" value="0.0"/>
+	<property name="offset_arm_6_ref" value="0.0"/>
+	<property name="offset_arm_7_ref" value="0.0"/>
 
 	<!-- ***************************** -->
 	<!-- camera calibration properties -->
 	<!-- ***************************** -->
 	<!-- left | handeye calibration | relative to head_axis_link -->
+	<property name="offset_cam_reference_x" value="0.0"/>
+	<property name="offset_cam_reference_y" value="0.0"/>
+	<property name="offset_cam_reference_z" value="0.0"/>
+	<property name="offset_cam_reference_roll" value="0.0"/>
+	<property name="offset_cam_reference_pitch" value="0.0"/>
+	<property name="offset_cam_reference_yaw" value="0.0"/>
+	
+	<!-- left | handeye calibration | relative to cam_reference_link -->
 	<property name="offset_cam_l_x" value="0.0"/>
 	<property name="offset_cam_l_y" value="0.0"/>
 	<property name="offset_cam_l_z" value="0.0"/>
@@ -109,7 +116,7 @@
 	<property name="offset_cam_l_pitch" value="0.0"/>
 	<property name="offset_cam_l_yaw" value="0.0"/>
 
-	<!-- right | stereo baseline calibration | relative to left camera -->
+	<!-- right | stereo baseline calibration | relative to cam_reference_link -->
 	<property name="offset_cam_r_x" value="0.0"/>
 	<property name="offset_cam_r_y" value="0.0"/>
 	<property name="offset_cam_r_z" value="0.0"/>
@@ -117,7 +124,7 @@
 	<property name="offset_cam_r_pitch" value="0.0"/>
 	<property name="offset_cam_r_yaw" value="0.0"/>
 
-	<!-- cam3d | handeye calibration | relative to head_axis_link -->
+	<!-- cam3d | handeye calibration | relative to cam_reference_link -->
 	<property name="offset_cam3d_x" value="0.0"/>
 	<property name="offset_cam3d_y" value="0.0"/>
 	<property name="offset_cam3d_z" value="0.0"/>
