@@ -92,6 +92,9 @@
 	<!-- tray reference position | used as calibration_rising for tray chain -->
 	<property name="offset_tray_ref" value="0"/>
 
+	<!-- ur connector reference position | used as calibration_rising for ur connector chain -->
+	<property name="offset_ur_connector_ref" value="0.0"/>
+
 	<!-- head camera axis reference position | used as calibration_rising for head axis chain -->
 	<property name="offset_head_axis_ref" value="0.0"/>
 
