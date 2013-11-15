@@ -112,9 +112,9 @@
 	<!-- left | handeye calibration | relative to cam_reference_link -->
 	<property name="offset_cam_l_x" value="0.0"/>
 	<property name="offset_cam_l_y" value="0.0"/>
-	<property name="offset_cam_l_z" value="-0.06"/>
+	<property name="offset_cam_l_z" value="0.0"/>
 	<property name="offset_cam_l_roll" value="0.0"/>
-	<property name="offset_cam_l_pitch" value="1.57079632679"/>
+	<property name="offset_cam_l_pitch" value="0.0"/>
 	<property name="offset_cam_l_yaw" value="0.0"/>
 
 	<!-- right | stereo baseline calibration | relative to cam_reference_link -->
@@ -130,6 +130,6 @@
 	<property name="offset_cam3d_y" value="0.0"/>
 	<property name="offset_cam3d_z" value="0.0"/>
 	<property name="offset_cam3d_roll" value="0.0"/>
-	<property name="offset_cam3d_pitch" value="-1.57079632679"/>
-	<property name="offset_cam3d_yaw" value="1.57079632679"/>
+	<property name="offset_cam3d_pitch" value="0.0"/>
+	<property name="offset_cam3d_yaw" value="0.0"/>
 </robot>
