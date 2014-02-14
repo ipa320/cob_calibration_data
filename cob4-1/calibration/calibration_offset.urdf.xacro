@@ -46,13 +46,13 @@
 	<property name="offset_head_pitch" value="0.0"/>
 	<property name="offset_head_yaw" value="0.0"/>
 	
-	<!-- head mount positions | relative to head_3_link -->
-	<property name="offset_head_sensors_x" value="0.0"/>
-	<property name="offset_head_sensors_y" value="0.0"/>
-	<property name="offset_head_sensors_z" value="0.0"/>
-	<property name="offset_head_sensors_roll" value="0.0"/>
-	<property name="offset_head_sensors_pitch" value="0.0"/>
-	<property name="offset_head_sensors_yaw" value="0.0"/>
+	<!-- sersorring mount positions | relative to head_3_link -->
+	<property name="offset_sensorring_x" value="0.0"/>
+	<property name="offset_sensorring_y" value="0.0"/>
+	<property name="offset_sensorring_z" value="0.0"/>
+	<property name="offset_sensorring_roll" value="0.0"/>
+	<property name="offset_sensorring_pitch" value="0.0"/>
+	<property name="offset_sensorring_yaw" value="0.0"/>
 	
 	<!-- arm right mount positions | relative to torso_3_link -->
 	<property name="offset_arm_right_x" value="0.0"/>
@@ -85,7 +85,7 @@
 	<property name="offset_head_2_ref" value="0.0"/>
 	<property name="offset_head_3_ref" value="0.0"/>
 
-	<property name="offset_head_sensor_ref" value="0.0"/>
+	<property name="offset_sensorring_ref" value="0.0"/>
 	
 	<!-- arm right offset positions | used as calibration_rising for arm chain-->
 	<property name="offset_arm_right_1_ref" value="0.0"/>
