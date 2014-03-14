@@ -1,5 +1,4 @@
-<?xml version="1.0" ?>
-<robot>
+<?xml version="1.0" ?><robot>
 	<!-- ***************** -->
 	<!-- base calibration -->
 	<!-- ***************** -->
@@ -7,25 +6,25 @@
 	<property name="offset_laser_front_x" value="0.0"/>
 	<property name="offset_laser_front_y" value="0.0"/>
 	<property name="offset_laser_front_z" value="0.0"/>
-	<property name="offset_laser_front_roll" value="0"/>
-	<property name="offset_laser_front_pitch" value="0"/>
-	<property name="offset_laser_front_yaw" value="0"/>
+	<property name="offset_laser_front_roll" value="0.0"/>
+	<property name="offset_laser_front_pitch" value="0.0"/>
+	<property name="offset_laser_front_yaw" value="0.0"/>
 
 	<!-- laser rear mount positions | relative to base_link -->
 	<property name="offset_laser_rear_x" value="0.0"/>
 	<property name="offset_laser_rear_y" value="0.0"/>
 	<property name="offset_laser_rear_z" value="0.0"/>
-	<property name="offset_laser_rear_roll" value="0"/>
-	<property name="offset_laser_rear_pitch" value="0"/>
-	<property name="offset_laser_rear_yaw" value="0"/>
+	<property name="offset_laser_rear_roll" value="0.0"/>
+	<property name="offset_laser_rear_pitch" value="0.0"/>
+	<property name="offset_laser_rear_yaw" value="0.0"/>
 
 	<!-- laser top mount positions | relative to base_link -->
 	<property name="offset_laser_top_x" value="0.0"/>
 	<property name="offset_laser_top_y" value="0.0"/>
 	<property name="offset_laser_top_z" value="0.0"/>
-	<property name="offset_laser_top_roll" value="0"/>
-	<property name="offset_laser_top_pitch" value="0"/>
-	<property name="offset_laser_top_yaw" value="0"/>
+	<property name="offset_laser_top_roll" value="0.0"/>
+	<property name="offset_laser_top_pitch" value="0.0"/>
+	<property name="offset_laser_top_yaw" value="0.0"/>
 
 	<!-- *********************** -->
 	<!-- upper robot calibration -->
@@ -39,12 +38,12 @@
 	<property name="offset_tray_yaw" value="0.0"/>
 
 	<!-- torso mount positions | relative to base_link -->
-	<property name="offset_torso_x" value="0.0"/>
+	<property name="offset_torso_x" value="-1.53138e-05"/>
 	<property name="offset_torso_y" value="0.0"/>
-	<property name="offset_torso_z" value="0.0"/>
-	<property name="offset_torso_roll" value="0.0"/>
-	<property name="offset_torso_pitch" value="0.0"/>
-	<property name="offset_torso_yaw" value="0.0"/>
+	<property name="offset_torso_z" value="-4.00721e-05"/>
+	<property name="offset_torso_roll" value="-2.64380999999e-05"/>
+	<property name="offset_torso_pitch" value="-1.63645e-05"/>
+	<property name="offset_torso_yaw" value="-7.03150000003e-06"/>
 
 	<!-- head mount positions | relative to head_cover_link -->
 	<property name="offset_head_x" value="0.0"/>
@@ -53,15 +52,14 @@
 	<property name="offset_head_roll" value="0.0"/>
 	<property name="offset_head_pitch" value="0.0"/>
 	<property name="offset_head_yaw" value="0.0"/>
-
-	<!-- arm mount positions | relative to base_link -->
-	<property name="offset_arm_x" value="0.0"/>
-	<property name="offset_arm_y" value="0.0"/>
-	<property name="offset_arm_z" value="0.0"/>
-	<property name="offset_arm_roll" value="0.0"/>
-	<property name="offset_arm_pitch" value="0.0"/>
-	<property name="offset_arm_yaw" value="0.0"/>
 	
+	<!-- arm mount positions | relative to base_link -->
+	<property name="offset_arm_x" value="0.0093294583"/>
+	<property name="offset_arm_y" value="0.0076431178"/>
+	<property name="offset_arm_z" value="0.0195813968"/>
+	<property name="offset_arm_roll" value="-0.014130338"/>
+	<property name="offset_arm_pitch" value="0.0393952817"/>
+	<property name="offset_arm_yaw" value="0.0168650734"/>
 	
 	<!-- sdh mount positions | relative to arm_7_link -->
 	<property name="offset_sdh_x" value="0.0"/>
@@ -80,7 +78,7 @@
 	<!-- ! set these values to make torso straight with (0, 0, 0) joint angles ! -->
 	<property name="offset_torso_lower_neck_tilt_ref" value="0.0"/>
 	<property name="offset_torso_pan_ref" value="0.0"/>
-	<property name="offset_torso_upper_neck_tilt_ref" value="0.0"/>
+	<property name="offset_torso_upper_neck_tilt_ref" value="0.03"/>
 
 	<!-- tray reference position | used as calibration_rising for tray chain -->
 	<property name="offset_tray_ref" value="0.0"/>
@@ -95,6 +93,14 @@
 	<!-- camera calibration properties -->
 	<!-- ***************************** -->
 	<!-- left | handeye calibration | relative to head_axis_link -->
+	<property name="offset_cam_reference_x" value="0.0038"/>
+	<property name="offset_cam_reference_y" value="0.0214"/>
+	<property name="offset_cam_reference_z" value="-0.0034"/>
+	<property name="offset_cam_reference_roll" value="2.3310998263"/>
+	<property name="offset_cam_reference_pitch" value="0.0002904274"/>
+	<property name="offset_cam_reference_yaw" value="-2.3203998275"/>
+	
+	<!-- left | handeye calibration | relative to cam_reference_link -->
 	<property name="offset_cam_l_x" value="0.0"/>
 	<property name="offset_cam_l_y" value="0.0"/>
 	<property name="offset_cam_l_z" value="0.0"/>
@@ -102,19 +108,19 @@
 	<property name="offset_cam_l_pitch" value="0.0"/>
 	<property name="offset_cam_l_yaw" value="0.0"/>
 
-	<!-- right | stereo baseline calibration | relative to left camera -->
-	<property name="offset_cam_r_x" value="0.0"/>
-	<property name="offset_cam_r_y" value="0.0"/>
-	<property name="offset_cam_r_z" value="0.0"/>
-	<property name="offset_cam_r_roll" value="0.0"/>
-	<property name="offset_cam_r_pitch" value="0.0"/>
-	<property name="offset_cam_r_yaw" value="0.0"/>
+	<!-- right | stereo baseline calibration | relative to cam_reference_link -->
+	<property name="offset_cam_r_x" value="0.000574472454829"/>
+	<property name="offset_cam_r_y" value="0.000690800785727"/>
+	<property name="offset_cam_r_z" value="0.000769346315625"/>
+	<property name="offset_cam_r_roll" value="0.00420811718417"/>
+	<property name="offset_cam_r_pitch" value="0.0133091238658"/>
+	<property name="offset_cam_r_yaw" value="0.0107395540526"/>
 
-	<!-- cam3d | handeye calibration | relative to head_axis_link -->
-	<property name="offset_cam3d_x" value="0.0"/>
-	<property name="offset_cam3d_y" value="0.0"/>
-	<property name="offset_cam3d_z" value="0.0"/>
-	<property name="offset_cam3d_roll" value="0.0"/>
-	<property name="offset_cam3d_pitch" value="0.0"/>
-	<property name="offset_cam3d_yaw" value="0.0"/>
+	<!-- cam3d | handeye calibration | relative to cam_reference_link -->
+	<property name="offset_cam3d_x" value="0.019994817123"/>
+	<property name="offset_cam3d_y" value="-0.000673360242778"/>
+	<property name="offset_cam3d_z" value="0.00577894234326"/>
+	<property name="offset_cam3d_roll" value="0.0195768117826"/>
+	<property name="offset_cam3d_pitch" value="0.0023783428723"/>
+	<property name="offset_cam3d_yaw" value="0.0134796433026"/>
 </robot>
