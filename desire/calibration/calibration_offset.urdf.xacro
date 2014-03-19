@@ -54,6 +54,13 @@
 	<!-- ***************************** -->
 	<!-- camera calibration properties -->
 	<!-- ***************************** -->
+	<property name="offset_cam_reference_x" value="0.0"/>
+	<property name="offset_cam_reference_y" value="0.0"/>
+	<property name="offset_cam_reference_z" value="0.0"/>
+	<property name="offset_cam_reference_roll" value="0.0"/>
+	<property name="offset_cam_reference_pitch" value="0.0"/>
+	<property name="offset_cam_reference_yaw" value="0.0"/>
+	<!-- right | stereo baseline calibration | relative to left camera -->
 	<property name="offset_cam_l_x" value="0.0"/>
 	<property name="offset_cam_l_y" value="0.0"/>
 	<property name="offset_cam_l_z" value="0.0"/>

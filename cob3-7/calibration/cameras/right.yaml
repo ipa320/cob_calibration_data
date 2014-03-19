@@ -1,11 +1,11 @@
 camera_name: right
 frame_id: /head_color_camera_l_link
-image_width: 1360
-image_height: 1024
+image_width: 2448
+image_height: 2050
 camera_matrix:
   rows: 3
   cols: 3
-  data: [1453.5846392879885, 0.0, 696.4080704625112, 0.0, 1450.8503090889033, 525.84257639113525, 0.0, 0.0, 1.0]
+  data: [1453.5846392879885, 0.0, 1224, 0.0, 1450.8503090889033, 1025, 0.0, 0.0, 1.0]
 distortion_model: plumb_bob
 distortion_coefficients:
   rows: 1
