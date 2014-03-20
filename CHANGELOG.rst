@@ -2,8 +2,8 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.5.1 (2014-03-20)
+------------------
 * Merge pull request `#44 <https://github.com/ipa320/cob_calibration_data/issues/44>`_ from ipa-fxm/hydro_dev
   raw3-1 has not been calibrated yet
 * raw3-1 has not been calibrated yet
