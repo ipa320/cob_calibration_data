@@ -3,6 +3,7 @@
   <version>0.5.1</version>
   <description>This repository holds the current calibration data for Care-O-bot.</description>
   <maintainer email="fmw@ipa.fhg.de">Florian Weisshardt</maintainer>
+  <maintainer email="nhg@ipa.fhg.de">Nadia Hammoudeh Garcia</maintainer>
 
   <license>LGPL</license>
 
