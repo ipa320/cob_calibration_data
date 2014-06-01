@@ -82,10 +82,10 @@
 	<property name="offset_cam_holder_y" value="0.0"/>
 	<property name="offset_cam_holder_z" value="0.0"/>
 	<property name="offset_cam_holder_roll" value="0.0"/>
-	<property name="offset_cam_holder_pitch" value="0.0"/>
+	<property name="offset_cam_holder_pitch" value="3.14"/>
 	<property name="offset_cam_holder_yaw" value="0.0"/>
 	
-	<property name="offset_torso_bottom_ref" value="0.0"/>
-	<property name="offset_torso_side_ref" value="-1.3"/>
+	<property name="offset_torso_bottom_ref" value="3.14"/>
+	<property name="offset_torso_side_ref" value="-0.43"/>
 
 </robot>
