@@ -77,10 +77,9 @@
 
 	<!-- torso reference positions | used as calibration_rising for torso chain -->
 	<!-- ! set these values to make torso straight with (0, 0, 0) joint angles ! -->
-	<property name="offset_torso_lower_neck_pan_ref" value="0.0" />
-	<property name="offset_torso_lower_neck_tilt_ref" value="0.0" />
-	<property name="offset_torso_upper_neck_pan_ref" value="0.0" />
-	<property name="offset_torso_upper_neck_tilt_ref" value="0.0" />
+	<property name="offset_torso_lower_neck_tilt_ref" value="0.0"/>
+	<property name="offset_torso_pan_ref" value="0.0"/>
+	<property name="offset_torso_upper_neck_tilt_ref" value="0.0"/>
 
 	<!-- tray reference position | used as calibration_rising for tray chain -->
 	<property name="offset_tray_ref" value="0.0"/>
@@ -96,6 +95,10 @@
 	<property name="offset_arm_5_ref" value="0.0"/>
 	<property name="offset_arm_6_ref" value="0.0"/>
 	<property name="offset_arm_7_ref" value="0.0"/>
+
+	<!-- gripper reference positions | used as calibration_rising for gripper chain-->
+	<property name="offset_pg70_finger_left_ref" value="0.0"/>
+	<property name="offset_pg70_finger_right_ref" value="0.0"/>
 
 	<!-- ***************************** -->
 	<!-- camera calibration properties -->
