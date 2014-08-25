@@ -2,6 +2,74 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge pull request `#63 <https://github.com/ipa320/cob_calibration_data/issues/63>`_ from ipa-fxm/indigo_dev
+  Indigo rockz
+* fix property name for cob3-8 pg70
+* Merge branch 'hydro_dev' of github.com:ipa-fxm/cob_calibration_data into indigo_dev
+* Merge pull request `#62 <https://github.com/ipa320/cob_calibration_data/issues/62>`_ from ipa-cob3-8/hydro_dev
+  setup cob3-8
+* setup cob3-8
+* Merge pull request `#61 <https://github.com/ipa320/cob_calibration_data/issues/61>`_ from ipa-cob3-8/hydro_dev
+  setup cob3-8
+* setup cob3-8
+* Merge branch 'indigo_dev' of github.com:ipa320/cob_calibration_data into indigo_dev
+* Merge pull request `#59 <https://github.com/ipa320/cob_calibration_data/issues/59>`_ from ipa-nhg/hydro_dev
+  cob3-8 has pg70 as gripper
+* cob3-8 has pg70 as gripper
+* Merge pull request `#57 <https://github.com/ipa320/cob_calibration_data/issues/57>`_ from ipa-fxm/indigo_dev
+  Indigo dev
+* Merge pull request `#58 <https://github.com/ipa320/cob_calibration_data/issues/58>`_ from ipa-nhg/cob3-8
+  calibration files for cob3-8
+* calibration files for cob3-8
+* updated calibration from automatica14
+* Merge pull request `#56 <https://github.com/ipa320/cob_calibration_data/issues/56>`_ from ipa-fxm/hydro_dev
+  added missing offset
+* correct offset
+* added missing offset
+* Merge pull request `#54 <https://github.com/ipa320/cob_calibration_data/issues/54>`_ from ipa-cob4-1/hydro_dev
+  rename cam3d calibration files
+* Merge pull request `#55 <https://github.com/ipa320/cob_calibration_data/issues/55>`_ from abubeck/feature/raw3-4-update
+  added calibration for ur on raw3-4
+* Retabbing
+* added calibration for ur on raw3-4
+* rename cam3d calibration files
+* Merge pull request `#53 <https://github.com/ipa320/cob_calibration_data/issues/53>`_ from ipa-nhg/cob4-2
+  add cob4-2
+* add cob4-2
+* Merge pull request `#52 <https://github.com/ipa320/cob_calibration_data/issues/52>`_ from ipa-fxm/hydro_dev
+  undo wrong calib offsets
+* undo wrong calib offsets
+* Merge pull request `#51 <https://github.com/ipa320/cob_calibration_data/issues/51>`_ from ipa-fxm/hydro_dev
+  Hydro Updates
+* Merge branch 'hydro_dev' of github.com:ipa320/cob_calibration_data into hydro_dev
+* Update package.xml
+* Merge pull request `#50 <https://github.com/ipa320/cob_calibration_data/issues/50>`_ from ipa-nhg/hydro_dev
+  New maintainer
+* New maintainer
+* Merge branch 'groovy_dev' of github.com:ipa320/cob_calibration_data into merge-groovy_dev
+* Merge pull request `#49 <https://github.com/ipa320/cob_calibration_data/issues/49>`_ from ipa-nhg/hydro_dev
+  merge cob4
+* merge cob4
+* Merge pull request `#48 <https://github.com/ipa320/cob_calibration_data/issues/48>`_ from ipa-cob4-1/groovy_dev
+  Added sensors to cob4 description
+* Merge branch 'groovy_dev' of http://github.com/ipa-nhg/cob_calibration_data into groovy_dev
+* Merge pull request `#47 <https://github.com/ipa320/cob_calibration_data/issues/47>`_ from ipa-bnm/groovy_dev
+  added calibration offsets for raw3-3s head and neck
+* Added sensors to cob4 description
+* added calibration offsets for raw3-3s head
+* Merge pull request `#46 <https://github.com/ipa320/cob_calibration_data/issues/46>`_ from ipa320/hydro_release_candidate
+  Hydro release candidate
+* Merge branch 'groovy_dev' of github.com:ipa320/cob_calibration_data into groovy_dev
+  Conflicts:
+  raw3-1/calibration/calibration_default.urdf.xacro
+* changed camera calibration
+* Merge branch 'groovy_dev' of https://github.com/ipa-raw3-1/cob_calibration_data into groovy_dev
+* changed calibration of camera head
+* new prosilica camera calibration
+* Contributors: Alexander Bubeck, Felix Messmer, Florian Weisshardt, Nadia Hammoudeh García, abubeck, ipa-bnm, ipa-cob3-8, ipa-cob4-1, ipa-fxm, ipa-nhg, ipa-raw3-3, raw3-1 administrator
+
 0.5.1 (2014-03-20)
 ------------------
 * Merge pull request `#44 <https://github.com/ipa320/cob_calibration_data/issues/44>`_ from ipa-fxm/hydro_dev
