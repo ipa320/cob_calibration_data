@@ -2,8 +2,8 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.5.2 (2014-08-25)
+------------------
 * Merge pull request `#63 <https://github.com/ipa320/cob_calibration_data/issues/63>`_ from ipa-fxm/indigo_dev
   Indigo rockz
 * fix property name for cob3-8 pg70
