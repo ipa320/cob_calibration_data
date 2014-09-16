@@ -2,8 +2,8 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.0 (2014-09-16)
+------------------
 * Merge pull request `#68 <https://github.com/ipa320/cob_calibration_data/issues/68>`_ from ipa-fxm/indigo_dev
   [Indigo] Bring in Hydro updates
 * Merge branch 'hydro_dev' of github.com:ipa320/cob_calibration_data into indigo_dev
