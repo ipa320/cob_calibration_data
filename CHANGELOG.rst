@@ -2,6 +2,28 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge pull request `#68 <https://github.com/ipa320/cob_calibration_data/issues/68>`_ from ipa-fxm/indigo_dev
+  [Indigo] Bring in Hydro updates
+* Merge branch 'hydro_dev' of github.com:ipa320/cob_calibration_data into indigo_dev
+* Merge pull request `#67 <https://github.com/ipa320/cob_calibration_data/issues/67>`_ from ipa-cob4-2/hydro_dev
+  added cob4-2 to the robot list
+* Merge branch 'hydro_dev' of https://github.com/ipa-cob4-2/cob_calibration_data into hydro_dev
+* Added cob4-2 robot CMakeLists
+* Merge pull request `#66 <https://github.com/ipa320/cob_calibration_data/issues/66>`_ from ipa320/indigo_release_candidate
+  Indigo release candidate
+* Merge pull request `#65 <https://github.com/ipa320/cob_calibration_data/issues/65>`_ from ipa-fxm/indigo_dev
+  Hydro updates
+* Merge pull request `#11 <https://github.com/ipa320/cob_calibration_data/issues/11>`_ from ipa-fxm/hydro_dev
+  Hydro updates
+* Merge pull request `#64 <https://github.com/ipa320/cob_calibration_data/issues/64>`_ from ipa-cob3-8/hydro_dev
+  cob3-8 calibration
+* Merge branch 'hydro_dev' of github.com:ipa-cob3-8/cob_calibration_data into hydro_dev
+* cob3-8 calibration
+* cob3-8 calibration
+* Contributors: Florian Weisshardt, Nadia Hammoudeh García, ipa-cob3-8, ipa-cob4-2, ipa-fxm, ipa-nhg
+
 0.5.2 (2014-08-25)
 ------------------
 * Merge pull request `#63 <https://github.com/ipa320/cob_calibration_data/issues/63>`_ from ipa-fxm/indigo_dev
