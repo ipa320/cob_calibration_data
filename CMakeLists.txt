@@ -7,24 +7,12 @@ find_package(catkin REQUIRED )
 
 # rostest for robots
 SET(robotlist
-cob3-1
-cob3-2
 cob3-3
-cob3-4
-cob3-5
 cob3-6
-cob3-7
-cob3-8
-cob4-1
-cob4-2
 raw3-1
-raw3-2
 raw3-3
-raw3-4
-raw3-5
-raw3-6
-desire
-)
+cob4-1
+cob4-2)
 
 # include_directories(include ${Boost_INCLUDE_DIR} ${catkin_INCLUDE_DIRS})
 # TODO: fill in what other packages will need to use this package
