@@ -17,7 +17,6 @@ raw3-3
 raw3-4
 raw3-5
 raw3-6
-desire
 )
 
 # include_directories(include ${Boost_INCLUDE_DIR} ${catkin_INCLUDE_DIRS})
