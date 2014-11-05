@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 <robot>
 	<!-- ***************** -->
 	<!-- base calibration -->
@@ -53,7 +53,7 @@
 	<property name="offset_head_roll" value="0.0"/>
 	<property name="offset_head_pitch" value="0.0"/>
 	<property name="offset_head_yaw" value="0.0"/>
-
+	
 	<!-- arm mount positions | relative to base_link -->
 	<property name="offset_arm_x" value="0.0"/>
 	<property name="offset_arm_y" value="0.0"/>
@@ -62,13 +62,13 @@
 	<property name="offset_arm_pitch" value="0.0"/>
 	<property name="offset_arm_yaw" value="0.0"/>
 	
-	<!-- sdh mount positions | relative to arm_7_link -->
-	<property name="offset_sdh_x" value="0.0"/>
-	<property name="offset_sdh_y" value="0.0"/>
-	<property name="offset_sdh_z" value="0.0"/>
-	<property name="offset_sdh_roll" value="0.0"/>
-	<property name="offset_sdh_pitch" value="0.0"/>
-	<property name="offset_sdh_yaw" value="0.0"/>
+	<!-- pg70 mount positions | relative to arm_7_link -->
+	<property name="offset_pg70_x" value="0.0"/>
+	<property name="offset_pg70_y" value="0.0"/>
+	<property name="offset_pg70_z" value="0.0"/>
+	<property name="offset_pg70_roll" value="0.0"/>
+	<property name="offset_pg70_pitch" value="0.0"/>
+	<property name="offset_pg70_yaw" value="0.0"/>
 
 	<!-- *********************************** -->
 	<!-- kinematic chain reference positions -->
@@ -82,9 +82,7 @@
 	<property name="offset_torso_upper_neck_tilt_ref" value="0.0"/>
 
 	<!-- tray reference position | used as calibration_rising for tray chain -->
-	<property name="offset_tray_1_ref" value="0.0"/>
-	<property name="offset_tray_2_ref" value="0.0"/>
-	<property name="offset_tray_3_ref" value="0.0"/>
+	<property name="offset_tray_ref" value="0.0"/>
 
 	<!-- head camera axis reference position | used as calibration_rising for head axis chain -->
 	<property name="offset_head_axis_ref" value="0.0"/>
@@ -98,6 +96,10 @@
 	<property name="offset_arm_6_ref" value="0.0"/>
 	<property name="offset_arm_7_ref" value="0.0"/>
 
+	<!-- gripper reference positions | used as calibration_rising for gripper chain-->
+	<property name="offset_pg70_finger_left_ref" value="0.0"/>
+	<property name="offset_pg70_finger_right_ref" value="0.0"/>
+
 	<!-- ***************************** -->
 	<!-- camera calibration properties -->
 	<!-- ***************************** -->
@@ -108,22 +110,6 @@
 	<property name="offset_cam_reference_roll" value="0.0"/>
 	<property name="offset_cam_reference_pitch" value="0.0"/>
 	<property name="offset_cam_reference_yaw" value="0.0"/>
-	
-	<!-- left | handeye calibration | relative to cam_reference_link -->
-	<property name="offset_cam_l_x" value="0.0"/>
-	<property name="offset_cam_l_y" value="0.0"/>
-	<property name="offset_cam_l_z" value="0.0"/>
-	<property name="offset_cam_l_roll" value="0.0"/>
-	<property name="offset_cam_l_pitch" value="0.0"/>
-	<property name="offset_cam_l_yaw" value="0.0"/>
-
-	<!-- right | stereo baseline calibration | relative to cam_reference_link -->
-	<property name="offset_cam_r_x" value="0.0"/>
-	<property name="offset_cam_r_y" value="0.0"/>
-	<property name="offset_cam_r_z" value="0.0"/>
-	<property name="offset_cam_r_roll" value="0.0"/>
-	<property name="offset_cam_r_pitch" value="0.0"/>
-	<property name="offset_cam_r_yaw" value="0.0"/>
 
 	<!-- cam3d | handeye calibration | relative to cam_reference_link -->
 	<property name="offset_cam3d_x" value="0.0"/>
