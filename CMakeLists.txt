@@ -9,6 +9,7 @@ find_package(catkin REQUIRED )
 SET(robotlist
 cob3-3
 cob3-6
+cob3-9
 cob4-1
 cob4-2
 raw3-1
