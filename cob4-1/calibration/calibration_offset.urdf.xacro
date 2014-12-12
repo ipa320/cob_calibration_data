@@ -73,7 +73,6 @@
 	<!-- *********************************** -->
 	<!-- kinematic chain reference positions -->
 	<!-- *********************************** -->
-
 	<!-- torso offset positions | used as calibration_rising for torso chain -->
 	<!-- ! set these values to make torso straight with (0, 0, 0) joint angles ! -->
 	<property name="offset_torso_1_ref" value="0.0"/>
@@ -85,6 +84,7 @@
 	<property name="offset_head_2_ref" value="0.0"/>
 	<property name="offset_head_3_ref" value="0.0"/>
 
+	<!-- sensorring offset positions | used as calibration_rising for sensorring chain -->
 	<property name="offset_sensorring_ref" value="0.0"/>
 	
 	<!-- arm right offset positions | used as calibration_rising for arm chain-->
