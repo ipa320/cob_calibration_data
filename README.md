@@ -1,5 +1,6 @@
 cob_calibration_data
 ====================
+[![Build Status](https://travis-ci.org/ipa320/cob_calibration_data.png?branch=indigo_dev)](https://travis-ci.org/ipa320/cob_calibration_data)
 
 This repository holds the current calibration data for Care-O-bot.
 
