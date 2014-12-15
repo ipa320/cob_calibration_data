@@ -7,7 +7,6 @@ find_package(catkin REQUIRED )
 
 # rostest for robots
 SET(robotlist
-cob3-3
 cob3-6
 cob3-9
 cob4-1
