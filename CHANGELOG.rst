@@ -2,6 +2,52 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.1 (2014-12-15)
+------------------
+* Merge branch 'indigo_dev' into indigo_release_candidate
+* delete cob3-3
+* Merge pull request `#72 <https://github.com/ipa320/cob_calibration_data/issues/72>`_ from ipa-fmw/indigo_dev
+  cleanup: cob4-1 with torso and head; cob4-2 without torso and head
+* cleanup: cob4-1 with torso and head; cob4-2 without torso and head
+* Merge pull request `#71 <https://github.com/ipa320/cob_calibration_data/issues/71>`_ from ipa-nhg/cob3-9
+  Cob3 9
+* cob3-9
+* cob3-9
+* Merge pull request `#70 <https://github.com/ipa320/cob_calibration_data/issues/70>`_ from ipa-fmw/delete_unsupported_robots
+  [indigo] Delete unsupported robots
+* delete desire
+* delete cob3-8
+* delete cob3-7
+* delete cob3-5
+* delete cob3-4
+* delete cob3-2
+* delete cob3-1
+* Merge pull request `#2 <https://github.com/ipa320/cob_calibration_data/issues/2>`_ from ipa320/indigo_dev
+  Indigo dev
+* Contributors: Florian Weisshardt, Nadia Hammoudeh García, ipa-nhg
+
+0.6.0 (2014-09-16)
+------------------
+* Merge pull request `#68 <https://github.com/ipa320/cob_calibration_data/issues/68>`_ from ipa-fxm/indigo_dev
+  [Indigo] Bring in Hydro updates
+* Merge branch 'hydro_dev' of github.com:ipa320/cob_calibration_data into indigo_dev
+* Merge pull request `#67 <https://github.com/ipa320/cob_calibration_data/issues/67>`_ from ipa-cob4-2/hydro_dev
+  added cob4-2 to the robot list
+* Merge branch 'hydro_dev' of https://github.com/ipa-cob4-2/cob_calibration_data into hydro_dev
+* Added cob4-2 robot CMakeLists
+* Merge pull request `#66 <https://github.com/ipa320/cob_calibration_data/issues/66>`_ from ipa320/indigo_release_candidate
+  Indigo release candidate
+* Merge pull request `#65 <https://github.com/ipa320/cob_calibration_data/issues/65>`_ from ipa-fxm/indigo_dev
+  Hydro updates
+* Merge pull request `#11 <https://github.com/ipa320/cob_calibration_data/issues/11>`_ from ipa-fxm/hydro_dev
+  Hydro updates
+* Merge pull request `#64 <https://github.com/ipa320/cob_calibration_data/issues/64>`_ from ipa-cob3-8/hydro_dev
+  cob3-8 calibration
+* Merge branch 'hydro_dev' of github.com:ipa-cob3-8/cob_calibration_data into hydro_dev
+* cob3-8 calibration
+* cob3-8 calibration
+* Contributors: Florian Weisshardt, Nadia Hammoudeh García, ipa-cob3-8, ipa-cob4-2, ipa-fxm, ipa-nhg
+
 0.5.2 (2014-08-25)
 ------------------
 * Merge pull request `#63 <https://github.com/ipa320/cob_calibration_data/issues/63>`_ from ipa-fxm/indigo_dev
