@@ -2,6 +2,30 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'indigo_dev' into indigo_release_candidate
+* delete cob3-3
+* Merge pull request `#72 <https://github.com/ipa320/cob_calibration_data/issues/72>`_ from ipa-fmw/indigo_dev
+  cleanup: cob4-1 with torso and head; cob4-2 without torso and head
+* cleanup: cob4-1 with torso and head; cob4-2 without torso and head
+* Merge pull request `#71 <https://github.com/ipa320/cob_calibration_data/issues/71>`_ from ipa-nhg/cob3-9
+  Cob3 9
+* cob3-9
+* cob3-9
+* Merge pull request `#70 <https://github.com/ipa320/cob_calibration_data/issues/70>`_ from ipa-fmw/delete_unsupported_robots
+  [indigo] Delete unsupported robots
+* delete desire
+* delete cob3-8
+* delete cob3-7
+* delete cob3-5
+* delete cob3-4
+* delete cob3-2
+* delete cob3-1
+* Merge pull request `#2 <https://github.com/ipa320/cob_calibration_data/issues/2>`_ from ipa320/indigo_dev
+  Indigo dev
+* Contributors: Florian Weisshardt, Nadia Hammoudeh García, ipa-nhg
+
 0.6.0 (2014-09-16)
 ------------------
 * Merge pull request `#68 <https://github.com/ipa320/cob_calibration_data/issues/68>`_ from ipa-fxm/indigo_dev
