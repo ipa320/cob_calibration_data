@@ -2,8 +2,8 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.1 (2014-12-15)
+------------------
 * Merge branch 'indigo_dev' into indigo_release_candidate
 * delete cob3-3
 * Merge pull request `#72 <https://github.com/ipa320/cob_calibration_data/issues/72>`_ from ipa-fmw/indigo_dev
