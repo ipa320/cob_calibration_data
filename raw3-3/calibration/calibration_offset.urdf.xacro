@@ -88,4 +88,12 @@
 	<property name="offset_torso_bottom_ref" value="3.14"/>
 	<property name="offset_torso_side_ref" value="-0.43"/>
 
+	<!-- laser front/rear  mount positions | relative to base_link -->
+	<property name="offset_laser_front_x" value="0.0"/>
+	<property name="offset_laser_rear_x" value="0.0"/>
+	<property name="offset_laser_front_y" value="0.0"/>
+	<property name="offset_laser_rear_y" value="0.0"/>
+	<property name="offset_laser_front_yaw" value="0.0"/>
+	<property name="offset_laser_rear_yaw" value="0.0"/>
+
 </robot>
