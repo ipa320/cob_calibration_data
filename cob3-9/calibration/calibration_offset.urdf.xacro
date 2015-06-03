@@ -72,33 +72,8 @@
 	<!-- *********************************** -->
 	<!-- kinematic chain reference positions -->
 	<!-- *********************************** -->
-	<!-- torso chain calibration_offest! | relative to reference position (see below)-->
-
-	<!-- torso reference positions | used as calibration_rising for torso chain -->
-	<!-- ! set these values to make torso straight with (0, 0, 0) joint angles ! -->
-	<property name="offset_torso_lower_neck_tilt_ref" value="0.0"/>
-	<property name="offset_torso_pan_ref" value="0.0"/>
-	<property name="offset_torso_upper_neck_tilt_ref" value="0.03"/>
-
-	<!-- tray reference position | used as calibration_rising for tray chain -->
-	<property name="offset_tray_ref" value="0.0"/>
-
-	<!-- head camera axis reference position | used as calibration_rising for head axis chain -->
-	<property name="offset_head_axis_ref" value="0.0"/>
-
-	<!-- arm reference positions | used as calibration_rising for arm chain-->
-	<property name="offset_arm_1_ref" value="0.0"/>
-	<property name="offset_arm_2_ref" value="0.0"/>
-	<property name="offset_arm_3_ref" value="0.0"/>
-	<property name="offset_arm_4_ref" value="0.0"/>
-	<property name="offset_arm_5_ref" value="0.0"/>
-	<property name="offset_arm_6_ref" value="0.0"/>
-	<property name="offset_arm_7_ref" value="0.0"/>
-
-	<!-- gripper reference positions | used as calibration_rising for gripper chain-->
-	<property name="offset_pg70_finger_left_ref" value="0.0"/>
-	<property name="offset_pg70_finger_right_ref" value="0.0"/>
-
+	<!-- this feature is no longer supported as urdfdom does not parse the according 'calibration_rising' tag -->
+	
 	<!-- ***************************** -->
 	<!-- camera calibration properties -->
 	<!-- ***************************** -->
