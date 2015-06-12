@@ -1,10 +1,29 @@
 <?xml version="1.0"?>
 <robot>
+	<!-- ***************** -->
+	<!-- base calibration -->
+	<!-- ***************** -->
+	<!-- laser front mount positions | relative to base_link -->
+	<property name="offset_laser_front_x" value="0.0"/>
+	<property name="offset_laser_front_y" value="0.0"/>
+	<property name="offset_laser_front_z" value="0.0"/>
+	<property name="offset_laser_front_roll" value="0.0"/>
+	<property name="offset_laser_front_pitch" value="0.0"/>
+	<property name="offset_laser_front_yaw" value="0.0"/>
+
+	<!-- laser rear mount positions | relative to base_link -->
+	<property name="offset_laser_rear_x" value="0.0"/>
+	<property name="offset_laser_rear_y" value="0.0"/>
+	<property name="offset_laser_rear_z" value="0.0"/>
+	<property name="offset_laser_rear_roll" value="0.0"/>
+	<property name="offset_laser_rear_pitch" value="0.0"/>
+	<property name="offset_laser_rear_yaw" value="0.0"/>
 
 	<!-- *********************************** -->
 	<!-- kinematic chain reference positions -->
 	<!-- *********************************** -->
-
+	<!-- this feature is no longer supported as urdfdom does not parse the according 'calibration_rising' tag -->
+	
 	<!-- tower mount positions | relative to base_link -->
 	<property name="offset_tower_x" value="0.0"/>
 	<property name="offset_tower_y" value="0.0"/>
@@ -84,8 +103,5 @@
 	<property name="offset_cam_holder_roll" value="0.0"/>
 	<property name="offset_cam_holder_pitch" value="3.14"/>
 	<property name="offset_cam_holder_yaw" value="0.0"/>
-	
-	<property name="offset_torso_bottom_ref" value="3.14"/>
-	<property name="offset_torso_side_ref" value="-0.43"/>
 
 </robot>
