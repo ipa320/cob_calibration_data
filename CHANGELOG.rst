@@ -2,8 +2,8 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.3 (2015-06-17)
+------------------
 * Merge pull request `#84 <https://github.com/ipa320/cob_calibration_data/issues/84>`_ from ipa-fxm/indigo_dev
   Remove calibration_refs for cob3-2
 * remove calibration_refs for cob3-2
