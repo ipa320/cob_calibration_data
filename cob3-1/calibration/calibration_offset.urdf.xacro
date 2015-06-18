@@ -126,9 +126,9 @@
 	<property name="offset_cam_r_yaw" value="0.0"/>
 
 	<!-- cam3d | handeye calibration | relative to cam_reference_link -->
-	<property name="offset_cam3d_x" value="-0.07"/>
-	<property name="offset_cam3d_y" value="0.04"/>
-	<property name="offset_cam3d_z" value="0.02"/>
+	<property name="offset_cam3d_x" value="-0.05"/>
+	<property name="offset_cam3d_y" value="0.07"/>
+	<property name="offset_cam3d_z" value="0.06"/>
 	<property name="offset_cam3d_roll" value="0.0"/>
 	<property name="offset_cam3d_pitch" value="0.0"/>
 	<property name="offset_cam3d_yaw" value="0.0"/>
