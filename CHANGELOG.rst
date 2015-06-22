@@ -2,6 +2,46 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.3 (2015-06-17)
+------------------
+* Merge pull request `#84 <https://github.com/ipa320/cob_calibration_data/issues/84>`_ from ipa-fxm/indigo_dev
+  Remove calibration_refs for cob3-2
+* remove calibration_refs for cob3-2
+* Merge branch 'indigo_dev' of github.com:ipa320/cob_calibration_data into indigo_dev
+* Merge pull request `#81 <https://github.com/ipa320/cob_calibration_data/issues/81>`_ from ipa-cob3-2/indigo_dev
+  added cob3-2
+* allow laser calibration
+* remove unsupported calibration_rising
+* update cob3-2 calibration
+* added cob3-2
+* Merge pull request `#78 <https://github.com/ipa320/cob_calibration_data/issues/78>`_ from ipa-fxm/indigo_use_2dof_torso
+  [Indigo] add 2dof torso to cob4-2
+* add 2dof torso to cob4-2
+* Merge pull request `#79 <https://github.com/ipa320/cob_calibration_data/issues/79>`_ from ipa-cob4-4/indigo_dev
+  added cob4-4
+* added cob4-4
+* Merge pull request `#77 <https://github.com/ipa320/cob_calibration_data/issues/77>`_ from ipa-fxm/indigo_dev
+  [Indigo] added gripper for cob4-1
+* beautify CMakeLists
+* added gripper for cob4-1
+* Merge pull request `#76 <https://github.com/ipa320/cob_calibration_data/issues/76>`_ from ipa-nhg/cob4_gripper
+  cob4_gripper
+* cob4_gripper
+* Merge pull request `#75 <https://github.com/ipa320/cob_calibration_data/issues/75>`_ from ipa-nhg/cob4-6
+  setup cob4-6
+* setup cob4-6
+* Update .travis.yml
+* Update README.md
+* Update .travis.yml
+* Update README.md
+* Update README.md
+* Update README.md
+* Update README.md
+* add travis.yml
+* Merge pull request `#74 <https://github.com/ipa320/cob_calibration_data/issues/74>`_ from ipa320/indigo_release_candidate
+  Indigo release candidate
+* Contributors: Felix Messmer, Florian Weisshardt, Nadia Hammoudeh García, ipa-cob3-2, ipa-cob4-4, ipa-cob4-6, ipa-fxm, ipa-nhg
+
 0.6.2 (2014-12-15)
 ------------------
 * Merge branch 'indigo_dev' of https://github.com/ipa320/cob_calibration_data into indigo_dev
