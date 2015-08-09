@@ -29,7 +29,7 @@
 	<property name="offset_tower_z" value="0.0"/>
 	<property name="offset_tower_roll" value="0.0"/>
 	<property name="offset_tower_pitch" value="0.0"/>
-	<property name="offset_tower_yaw" value="0.0"/>	
+	<property name="offset_tower_yaw" value="0.0"/>
 
 	<!--arm mount positions | relative to base_link-->
 	<property name="offset_arm_x" value="0.354"/>
@@ -38,5 +38,5 @@
 	<property name="offset_arm_roll" value="-1.59"/>
 	<property name="offset_arm_pitch" value="1.59"/>
 	<property name="offset_arm_yaw" value="0"/>
-	
+
 </robot>

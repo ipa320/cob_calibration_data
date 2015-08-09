@@ -29,5 +29,5 @@
 	<property name="offset_tower_z" value="0.0"/>
 	<property name="offset_tower_roll" value="0.0"/>
 	<property name="offset_tower_pitch" value="0.0"/>
-	<property name="offset_tower_yaw" value="0.0"/>	
+	<property name="offset_tower_yaw" value="0.0"/>
 </robot>

@@ -28,7 +28,7 @@
 	<property name="offset_tower_z" value="0.0"/>
 	<property name="offset_tower_roll" value="0.0"/>
 	<property name="offset_tower_pitch" value="0.0"/>
-	<property name="offset_tower_yaw" value="0.0"/>	
+	<property name="offset_tower_yaw" value="0.0"/>
 
 	<!-- torso mount positions | relative to base_link -->
 	<property name="offset_torso_x" value="0.0"/>
@@ -72,7 +72,7 @@
 	<property name="offset_cam_reference_roll" value="0.0"/>
 	<property name="offset_cam_reference_pitch" value="0.0"/>
 	<property name="offset_cam_reference_yaw" value="0.0"/>
-	
+
 	<!-- left | handeye calibration | relative to cam_reference_link -->
 	<property name="offset_cam_l_x" value="0.0"/>
 	<property name="offset_cam_l_y" value="0.0"/>
