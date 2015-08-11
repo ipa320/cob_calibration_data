@@ -14,4 +14,6 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
+  <exec_depend>xacro</exec_depend>
+
 </package>
