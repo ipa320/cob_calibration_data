@@ -114,5 +114,13 @@
 	<property name="offset_torso_cam3d_down_roll" value="0.0"/>
 	<property name="offset_torso_cam3d_down_pitch" value="0.0"/>
 	<property name="offset_torso_cam3d_down_yaw" value="0.0"/>
+	
+	<!-- cam3d | handeye calibration | relative to sensorring_link -->
+	<property name="offset_sensorring_cam3d_x" value="0.0"/>
+	<property name="offset_sensorring_cam3d_y" value="0.0"/>
+	<property name="offset_sensorring_cam3d_z" value="0.0"/>
+	<property name="offset_sensorring_cam3d_roll" value="0.0"/>
+	<property name="offset_sensorring_cam3d_pitch" value="0.0"/>
+	<property name="offset_sensorring_cam3d_yaw" value="0.0"/>
 
 </robot>
