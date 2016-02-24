@@ -1,8 +1,9 @@
-<package>
+<package format="2">
   <name>cob_calibration_data</name>
-  <version>0.5.1</version>
+  <version>0.6.4</version>
   <description>This repository holds the current calibration data for Care-O-bot.</description>
 
+  <author email="fmw@ipa.fhg.de">Florian Weisshardt</author>
   <maintainer email="fmw@ipa.fhg.de">Florian Weisshardt</maintainer>
   <maintainer email="nhg@ipa.fhg.de">Nadia Hammoudeh Garcia</maintainer>
 
@@ -11,11 +12,8 @@
   <url type="website">http://ros.org/wiki/cob_calibration_data</url>
   <!-- <url type="bugtracker"></url> -->
 
-  <author email="fmw@ipa.fhg.de">Florian Weisshardt</author>
-
-
   <buildtool_depend>catkin</buildtool_depend>
-  <export>
 
-  </export>
+  <exec_depend>xacro</exec_depend>
+
 </package>
