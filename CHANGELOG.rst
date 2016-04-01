@@ -2,8 +2,8 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.5 (2016-04-01)
+------------------
 * Merge pull request `#96 <https://github.com/ipa320/cob_calibration_data/issues/96>`_ from ipa-nhg/CalibCam
   Adjusted offset calibration of the torso cameras
 * calibrated the torso cameras
