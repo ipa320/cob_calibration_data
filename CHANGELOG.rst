@@ -2,8 +2,8 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.6 (2016-10-10)
+------------------
 * Merge pull request `#105 <https://github.com/ipa320/cob_calibration_data/issues/105>`_ from ipa-nhg/Feature/headcamURDF
   Added head_cam frame to urdf
 * new calibration for cob4-1 head cam
