@@ -2,6 +2,32 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.6 (2016-10-10)
+------------------
+* Merge pull request `#105 <https://github.com/ipa320/cob_calibration_data/issues/105>`_ from ipa-nhg/Feature/headcamURDF
+  Added head_cam frame to urdf
+* new calibration for cob4-1 head cam
+* added head_cam frame to urdf
+* head cam calibration
+* Merge pull request `#104 <https://github.com/ipa320/cob_calibration_data/issues/104>`_ from ipa-bnm/feature/ur10_calibration_offsets
+  added ur10 calibration offsets to raw3-6
+* added ur10 calibration_offsets to raw3-6
+* Merge pull request `#103 <https://github.com/ipa320/cob_calibration_data/issues/103>`_ from ipa-fmw/indigo_dev
+  remove -j1 from travis script
+* remove -j1 from travis script
+* Merge pull request `#102 <https://github.com/ipa320/cob_calibration_data/issues/102>`_ from ipa-cob4-5/indigo_dev
+  add arm and sensorring for cob4-5
+* add arm and sensorring for cob4-5
+* Merge pull request `#101 <https://github.com/ipa320/cob_calibration_data/issues/101>`_ from ipa-cob4-7/indigo_dev
+  setup cob4-7
+* setup cob4-7
+* Merge pull request `#100 <https://github.com/ipa320/cob_calibration_data/issues/100>`_ from ipa-cob4-5/indigo_dev
+  Setup cob4-5
+* setup cob4-5
+* Merge pull request `#98 <https://github.com/ipa320/cob_calibration_data/issues/98>`_ from ipa320/indigo_release_candidate
+  Updates from latest release
+* Contributors: Benjamin Maidel, Florian Weisshardt, Matthias Gruhler, ipa-cob4-1, ipa-cob4-5, ipa-nhg, robot
+
 0.6.5 (2016-04-01)
 ------------------
 * Merge pull request `#96 <https://github.com/ipa320/cob_calibration_data/issues/96>`_ from ipa-nhg/CalibCam
