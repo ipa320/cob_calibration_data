@@ -4,20 +4,20 @@
 	<!-- base calibration -->
 	<!-- ***************** -->
 	<!-- laser front mount positions | relative to base_link -->
-	<property name="offset_laser_front_x" value="0.0"/>
-	<property name="offset_laser_front_y" value="0.0"/>
-	<property name="offset_laser_front_z" value="0.0"/>
-	<property name="offset_laser_front_roll" value="0.0"/>
-	<property name="offset_laser_front_pitch" value="0.0"/>
-	<property name="offset_laser_front_yaw" value="0.0"/>
+	<xacro:property name="offset_laser_front_x" value="0.0"/>
+	<xacro:property name="offset_laser_front_y" value="0.0"/>
+	<xacro:property name="offset_laser_front_z" value="0.0"/>
+	<xacro:property name="offset_laser_front_roll" value="0.0"/>
+	<xacro:property name="offset_laser_front_pitch" value="0.0"/>
+	<xacro:property name="offset_laser_front_yaw" value="0.0"/>
 
 	<!-- laser rear mount positions | relative to base_link -->
-	<property name="offset_laser_rear_x" value="0.0"/>
-	<property name="offset_laser_rear_y" value="0.0"/>
-	<property name="offset_laser_rear_z" value="0.0"/>
-	<property name="offset_laser_rear_roll" value="0.0"/>
-	<property name="offset_laser_rear_pitch" value="0.0"/>
-	<property name="offset_laser_rear_yaw" value="0.0"/>
+	<xacro:property name="offset_laser_rear_x" value="0.0"/>
+	<xacro:property name="offset_laser_rear_y" value="0.0"/>
+	<xacro:property name="offset_laser_rear_z" value="0.0"/>
+	<xacro:property name="offset_laser_rear_roll" value="0.0"/>
+	<xacro:property name="offset_laser_rear_pitch" value="0.0"/>
+	<xacro:property name="offset_laser_rear_yaw" value="0.0"/>
 
 	<!-- *********************************** -->
 	<!-- kinematic chain reference positions -->
@@ -25,83 +25,82 @@
 	<!-- this feature is no longer supported as urdfdom does not parse the according 'calibration_rising' tag -->
 
 	<!-- tower mount positions | relative to base_link -->
-	<property name="offset_tower_x" value="0.0"/>
-	<property name="offset_tower_y" value="0.0"/>
-	<property name="offset_tower_z" value="0.0"/>
-	<property name="offset_tower_roll" value="0.0"/>
-	<property name="offset_tower_pitch" value="0.0"/>
-	<property name="offset_tower_yaw" value="0.0"/>
+	<xacro:property name="offset_tower_x" value="0.0"/>
+	<xacro:property name="offset_tower_y" value="0.0"/>
+	<xacro:property name="offset_tower_z" value="0.0"/>
+	<xacro:property name="offset_tower_roll" value="0.0"/>
+	<xacro:property name="offset_tower_pitch" value="0.0"/>
+	<xacro:property name="offset_tower_yaw" value="0.0"/>
 
 	<!-- arm mount positions | relative to base_link -->
-	<property name="offset_arm_x" value="0.0"/>
-	<property name="offset_arm_y" value="0.0"/>
-	<property name="offset_arm_z" value="0.0"/>
-	<property name="offset_arm_roll" value="0.0"/>
-	<property name="offset_arm_pitch" value="0.0"/>
-	<property name="offset_arm_yaw" value="0.0"/>
+	<xacro:property name="offset_arm_x" value="0.0"/>
+	<xacro:property name="offset_arm_y" value="0.0"/>
+	<xacro:property name="offset_arm_z" value="0.0"/>
+	<xacro:property name="offset_arm_roll" value="0.0"/>
+	<xacro:property name="offset_arm_pitch" value="0.0"/>
+	<xacro:property name="offset_arm_yaw" value="0.0"/>
 
 	<!-- gripper_left mount positions | relative to arm_left_7_link -->
-	<property name="offset_gripper_left_x" value="0.0"/>
-	<property name="offset_gripper_left_y" value="0.0"/>
-	<property name="offset_gripper_left_z" value="0.0"/>
-	<property name="offset_gripper_left_roll" value="0.0"/>
-	<property name="offset_gripper_left_pitch" value="0.0"/>
-	<property name="offset_gripper_left_yaw" value="0.0"/>
+	<xacro:property name="offset_gripper_left_x" value="0.0"/>
+	<xacro:property name="offset_gripper_left_y" value="0.0"/>
+	<xacro:property name="offset_gripper_left_z" value="0.0"/>
+	<xacro:property name="offset_gripper_left_roll" value="0.0"/>
+	<xacro:property name="offset_gripper_left_pitch" value="0.0"/>
+	<xacro:property name="offset_gripper_left_yaw" value="0.0"/>
 
 	<!-- gripper_right mount positions | relative to arm_right_7_link -->
-	<property name="offset_gripper_right_x" value="0.0"/>
-	<property name="offset_gripper_right_y" value="0.0"/>
-	<property name="offset_gripper_right_z" value="0.0"/>
-	<property name="offset_gripper_right_roll" value="0.0"/>
-	<property name="offset_gripper_right_pitch" value="0.0"/>
-	<property name="offset_gripper_right_yaw" value="0.0"/>
+	<xacro:property name="offset_gripper_right_x" value="0.0"/>
+	<xacro:property name="offset_gripper_right_y" value="0.0"/>
+	<xacro:property name="offset_gripper_right_z" value="0.0"/>
+	<xacro:property name="offset_gripper_right_roll" value="0.0"/>
+	<xacro:property name="offset_gripper_right_pitch" value="0.0"/>
+	<xacro:property name="offset_gripper_right_yaw" value="0.0"/>
 
 	<!-- neck mount positions | relative to arm_torso_link -->
-	<property name="offset_neck_x" value="0.0"/>
-	<property name="offset_neck_y" value="0.0"/>
-	<property name="offset_neck_z" value="0.0"/>
-	<property name="offset_neck_roll" value="0.0"/>
-	<property name="offset_neck_pitch" value="0.0"/>
-	<property name="offset_neck_yaw" value="0.0"/>
+	<xacro:property name="offset_neck_x" value="0.0"/>
+	<xacro:property name="offset_neck_y" value="0.0"/>
+	<xacro:property name="offset_neck_z" value="0.0"/>
+	<xacro:property name="offset_neck_roll" value="0.0"/>
+	<xacro:property name="offset_neck_pitch" value="0.0"/>
+	<xacro:property name="offset_neck_yaw" value="0.0"/>
 
 	<!-- head mount positions | relative to neck_mount_link -->
-	<property name="offset_head_x" value="0.0"/>
-	<property name="offset_head_y" value="0.0"/>
-	<property name="offset_head_z" value="0.0"/>
-	<property name="offset_head_roll" value="0.0"/>
-	<property name="offset_head_pitch" value="0.0"/>
-	<property name="offset_head_yaw" value="0.0"/>
+	<xacro:property name="offset_head_x" value="0.0"/>
+	<xacro:property name="offset_head_y" value="0.0"/>
+	<xacro:property name="offset_head_z" value="0.0"/>
+	<xacro:property name="offset_head_roll" value="0.0"/>
+	<xacro:property name="offset_head_pitch" value="0.0"/>
+	<xacro:property name="offset_head_yaw" value="0.0"/>
 
 	<!-- ids_middle mount positions | relative to head_cam_holder_link -->
-	<property name="offset_ids_middle_x" value="0.0"/>
-	<property name="offset_ids_middle_y" value="0.0"/>
-	<property name="offset_ids_middle_z" value="0.0"/>
-	<property name="offset_ids_middle_roll" value="0.0"/>
-	<property name="offset_ids_middle_pitch" value="0.0"/>
-	<property name="offset_ids_middle_yaw" value="0.0"/>
+	<xacro:property name="offset_ids_middle_x" value="0.0"/>
+	<xacro:property name="offset_ids_middle_y" value="0.0"/>
+	<xacro:property name="offset_ids_middle_z" value="0.0"/>
+	<xacro:property name="offset_ids_middle_roll" value="0.0"/>
+	<xacro:property name="offset_ids_middle_pitch" value="0.0"/>
+	<xacro:property name="offset_ids_middle_yaw" value="0.0"/>
 
 	<!-- ids_left mount positions | relative to head_cam_holder_link -->
-	<property name="offset_ids_left_x" value="0.0"/>
-	<property name="offset_ids_left_y" value="0.0"/>
-	<property name="offset_ids_left_z" value="0.0"/>
-	<property name="offset_ids_left_roll" value="0.0"/>
-	<property name="offset_ids_left_pitch" value="0.0"/>
-	<property name="offset_ids_left_yaw" value="0.0"/>
+	<xacro:property name="offset_ids_left_x" value="0.0"/>
+	<xacro:property name="offset_ids_left_y" value="0.0"/>
+	<xacro:property name="offset_ids_left_z" value="0.0"/>
+	<xacro:property name="offset_ids_left_roll" value="0.0"/>
+	<xacro:property name="offset_ids_left_pitch" value="0.0"/>
+	<xacro:property name="offset_ids_left_yaw" value="0.0"/>
 
 	<!-- ids_right mount positions | relative to head_cam_holder_link -->
-	<property name="offset_ids_right_x" value="0.0"/>
-	<property name="offset_ids_right_y" value="0.0"/>
-	<property name="offset_ids_right_z" value="0.0"/>
-	<property name="offset_ids_right_roll" value="0.0"/>
-	<property name="offset_ids_right_pitch" value="0.0"/>
-	<property name="offset_ids_right_yaw" value="0.0"/>
+	<xacro:property name="offset_ids_right_x" value="0.0"/>
+	<xacro:property name="offset_ids_right_y" value="0.0"/>
+	<xacro:property name="offset_ids_right_z" value="0.0"/>
+	<xacro:property name="offset_ids_right_roll" value="0.0"/>
+	<xacro:property name="offset_ids_right_pitch" value="0.0"/>
+	<xacro:property name="offset_ids_right_yaw" value="0.0"/>
 
 	<!-- cam_holder mount positions | relative to head_cam_holder_link -->
-	<property name="offset_cam_holder_x" value="0.0"/>
-	<property name="offset_cam_holder_y" value="0.0"/>
-	<property name="offset_cam_holder_z" value="0.0"/>
-	<property name="offset_cam_holder_roll" value="0.0"/>
-	<property name="offset_cam_holder_pitch" value="3.14"/>
-	<property name="offset_cam_holder_yaw" value="0.0"/>
-
+	<xacro:property name="offset_cam_holder_x" value="0.0"/>
+	<xacro:property name="offset_cam_holder_y" value="0.0"/>
+	<xacro:property name="offset_cam_holder_z" value="0.0"/>
+	<xacro:property name="offset_cam_holder_roll" value="0.0"/>
+	<xacro:property name="offset_cam_holder_pitch" value="3.14"/>
+	<xacro:property name="offset_cam_holder_yaw" value="0.0"/>
 </robot>
