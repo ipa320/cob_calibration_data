@@ -15,6 +15,10 @@ env:
     - DEFAULT_ROSINSTALL="https://raw.githubusercontent.com/ipa320/care-o-bot/${CI_ROS_DISTRO}_dev/.travis.rosinstall"
 
 install:
+  - mkdir -p $CATKIN_WS_UNDERLAY_SRC
+  - git clone https://github.com/ipa320/cob_robots.git /tmp/cob_robots
+  - mv /tmp/cob_robots/cob_supported_robots  $CATKIN_WS_UNDERLAY_SRC/
+  - rm -rf /tmp/cob_robots
   - wget https://raw.githubusercontent.com/ipa320/care-o-bot/${CI_ROS_DISTRO}_dev/.travis.install.sh
   - bash .travis.install.sh
 
