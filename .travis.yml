@@ -25,5 +25,4 @@ install:
 script:
   - wget https://raw.githubusercontent.com/ipa320/care-o-bot/${CI_ROS_DISTRO}_dev/.travis.script.sh
   - bash .travis.script.sh
-  - set -e; for x in $(find . -name '*.xacro'); do $CATKIN_WS/install/env.sh rosrun xacro xacro "$x" > /dev/null; done
-
+  - set -e; for x in $(find . -name '*.xacro'); do echo "Testing $x"; $CATKIN_WS/install/env.sh rosrun xacro xacro "$x" > /dev/null; done
