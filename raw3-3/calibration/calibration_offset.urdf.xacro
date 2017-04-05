@@ -32,4 +32,12 @@
 	<xacro:property name="offset_tower_pitch" value="0.0"/>
 	<xacro:property name="offset_tower_yaw" value="0.0"/>
 
+	<!-- laser front/rear  mount positions | relative to base_link -->
+	<property name="offset_laser_front_x" value="0.0"/>
+	<property name="offset_laser_rear_x" value="0.0"/>
+	<property name="offset_laser_front_y" value="0.0"/>
+	<property name="offset_laser_rear_y" value="0.0"/>
+	<property name="offset_laser_front_yaw" value="0.0"/>
+	<property name="offset_laser_rear_yaw" value="0.0"/>
+
 </robot>
