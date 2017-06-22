@@ -84,6 +84,14 @@
 	<xacro:property name="offset_torso_cam3d_down_pitch" value="0.0"/>
 	<xacro:property name="offset_torso_cam3d_down_yaw" value="0.0"/>
 	
+	<!-- cam3d down | handeye calibration | relative to torso_3_link -->
+	<xacro:property name="offset_torso_cam3d_zr300_x" value="0.0"/>
+	<xacro:property name="offset_torso_cam3d_zr300_y" value="0.0"/>
+	<xacro:property name="offset_torso_cam3d_zr300_z" value="0.0"/>
+	<xacro:property name="offset_torso_cam3d_zr300_roll" value="0.0"/>
+	<xacro:property name="offset_torso_cam3d_zr300_pitch" value="0.0"/>
+	<xacro:property name="offset_torso_cam3d_zr300_yaw" value="0.0"/>
+	
 	<!-- cam3d | handeye calibration | relative to sensorring_link -->
 	<xacro:property name="offset_sensorring_cam3d_x" value="0.0"/>
 	<xacro:property name="offset_sensorring_cam3d_y" value="0.0"/>
