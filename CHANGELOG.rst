@@ -2,8 +2,8 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.7 (2017-07-17)
+------------------
 * Merge pull request `#132 <https://github.com/ipa320/cob_calibration_data/issues/132>`_ from ipa-cob4-8/cob4-8
   [Cob4-8] Recalibrate head camera
 * minor beautifying whitespace
