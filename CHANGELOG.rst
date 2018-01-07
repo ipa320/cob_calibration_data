@@ -2,6 +2,45 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.8 (2018-01-07)
+------------------
+* Merge pull request `#144 <https://github.com/ipa320/cob_calibration_data/issues/144>`_ from ipa320/indigo_release_candidate
+  Indigo release candidate
+* Merge pull request `#143 <https://github.com/ipa320/cob_calibration_data/issues/143>`_ from ipa-fxm/add_cob4-16_uh
+  add cob4-16 uh
+* add cob4-16 uh
+* Merge pull request `#142 <https://github.com/ipa320/cob_calibration_data/issues/142>`_ from ipa-nhg/cob47-setup
+  setup cob4-7
+* setup cob4-7
+* Merge pull request `#141 <https://github.com/ipa320/cob_calibration_data/issues/141>`_ from ipa-fxm/move_cob4-2
+  move cob4-2 to unity-robotics
+* move cob4-2 to unity-robotics
+* Merge pull request `#140 <https://github.com/ipa320/cob_calibration_data/issues/140>`_ from ipa-nhg/cob4-10
+  Full configuration cob4-10
+* setup cob4-10
+* Merge pull request `#133 <https://github.com/ipa320/cob_calibration_data/issues/133>`_ from ipa-fxm/APACHE_license
+  use license apache 2.0
+* Merge pull request `#139 <https://github.com/ipa320/cob_calibration_data/issues/139>`_ from ipa320/ipa-rmb-patch-1
+  Changed maintainer
+* Changed maintainer
+* Merge pull request `#138 <https://github.com/ipa320/cob_calibration_data/issues/138>`_ from ipa-fxm/config_cob4-10_tlabs
+  full config for cob4-10 tlabs
+* full config for cob4-10 tlabs
+* Merge pull request `#137 <https://github.com/ipa320/cob_calibration_data/issues/137>`_ from ipa-fxm/travis_extensions
+  Travis extensions
+* add debian jobs
+* remove jade jobs
+* Merge pull request `#134 <https://github.com/ipa320/cob_calibration_data/issues/134>`_ from ipa-fmw/feature/cob4-11-serodi
+  add initial cob4-11 serodi config
+* Merge pull request `#135 <https://github.com/ipa320/cob_calibration_data/issues/135>`_ from ipa-fmw/feature/cob4-10-tlabs
+  add initial config for cob4-10 tlabs
+* add initial config for cob4-10
+* add initial cob4-11 serodi config
+* Update PULL_REQUEST_TEMPLATE.md
+* add pull request template
+* use license apache 2.0
+* Contributors: Felix Messmer, Florian Weisshardt, Jannik Abbenseth, Nadia Hammoudeh García, Richard Bormann, cob4-10, cob4-11, ipa-fxm, ipa-nhg, ipa-uhr-mk
+
 0.6.7 (2017-07-17)
 ------------------
 * Merge pull request `#132 <https://github.com/ipa320/cob_calibration_data/issues/132>`_ from ipa-cob4-8/cob4-8
