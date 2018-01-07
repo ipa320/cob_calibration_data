@@ -2,6 +2,96 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.7 (2017-07-17)
+------------------
+* Merge pull request `#132 <https://github.com/ipa320/cob_calibration_data/issues/132>`_ from ipa-cob4-8/cob4-8
+  [Cob4-8] Recalibrate head camera
+* minor beautifying whitespace
+* Merge branch 'indigo_dev' of https://github.com/ipa320/cob_calibration_data into cob4-8
+* Recalibrate the head camera
+* Merge pull request `#131 <https://github.com/ipa320/cob_calibration_data/issues/131>`_ from ipa-nhg/cob4-8
+  setup cob4-8
+* renamed sensorring camera
+* setup cob4-8
+* Merge pull request `#130 <https://github.com/ipa320/cob_calibration_data/issues/130>`_ from ipa-nhg/cob4-9
+  Setup cob4-9
+* Merge pull request `#129 <https://github.com/ipa320/cob_calibration_data/issues/129>`_ from ipa-bnm/head_cam_calibration
+  recalibrated cob4-7 head cam
+* Setup cob4-9
+* new calibration for lower resolution
+* recalibrated cob4-7 head cam
+* Merge pull request `#122 <https://github.com/ipa320/cob_calibration_data/issues/122>`_ from ipa-fxm/multi_distro_travis
+  Multi distro travis
+* add xacro-test as AFTER_SCRIPT
+* fix allow_failures
+* document distro support in README
+* setup travis matrix for multiple distros
+* Merge pull request `#128 <https://github.com/ipa320/cob_calibration_data/issues/128>`_ from ipa-nhg/cob4-paul-stuttgart
+  Setup cob4 paul stuttgart
+* Merge pull request `#127 <https://github.com/ipa320/cob_calibration_data/issues/127>`_ from ipa-nhg/HeadCamCalib
+  cob4-7 - calibrated head cam
+* remove cob4-10 config
+* update cob4-7 setup , cob4-paul-stuttgart
+* clean spaces
+* cob4-7 - calibrated head cam
+* Merge pull request `#126 <https://github.com/ipa320/cob_calibration_data/issues/126>`_ from ipa-cob4-5/indigo_dev
+  Re-calibrate cob4-5 head camera
+* Merge branch 'indigo_dev' of github.com:ipa-cob4-5/cob_calibration_data into indigo_dev
+* cob4-5 recalibrate head camera
+* Merge pull request `#123 <https://github.com/ipa320/cob_calibration_data/issues/123>`_ from ipa-cob4-5/indigo_dev
+  calibrate head camera
+* Merge branch 'indigo_dev' of https://github.com/ipa320/cob_calibration_data into indigo_dev
+* Merge github.com:ipa320/cob_calibration_data into indigo_dev
+* Merge pull request `#124 <https://github.com/ipa320/cob_calibration_data/issues/124>`_ from ipa-fxm/fix_travis
+  Fix travis
+* add cob_supported_robots to rosinstall
+* Revert "use cob_supported_robots in travis underlay"
+  This reverts commit b99fdc64d2289f7d8397f446b826fcb7995fd5b2.
+* calibrate head camera
+* use default ipa320 .gitignore
+* Merge pull request `#120 <https://github.com/ipa320/cob_calibration_data/issues/120>`_ from ipa-fmw/indigo_dev
+  update calibratin for new cob4-2 head cam
+* Merge branch 'indigo_dev' of https://github.com/ipa320/cob_calibration_data into indigo_dev
+* update calibratin for new cob4-2 head cam
+* Merge pull request `#119 <https://github.com/ipa320/cob_calibration_data/issues/119>`_ from ipa-fxm/remove_cob4-1
+  Remove cob4 1
+* remove cob4-1
+* remove cob4-2 leftover
+* Merge pull request `#117 <https://github.com/ipa320/cob_calibration_data/issues/117>`_ from ipa-fxm/remove_unupported_robots
+  remove unsupported robots
+* remove unsupported robots
+* Merge pull request `#116 <https://github.com/ipa320/cob_calibration_data/issues/116>`_ from ipa-mdl/patch-1
+  use cob_supported_robots in travis underlay
+* print file names that get tested
+* fixed path to env.sh
+* simple xacro test (`#114 <https://github.com/ipa320/cob_calibration_data/issues/114>`_)
+* use cob_supported_robots in travis underlay
+* Merge pull request `#115 <https://github.com/ipa320/cob_calibration_data/issues/115>`_ from ipa-fxm/export-robotlist
+  use exported robotlist
+* use exported robotlist
+* Merge pull request `#113 <https://github.com/ipa320/cob_calibration_data/issues/113>`_ from ipa-mdl/fix-xacro
+  [hotfix] added missing xmlns
+* added missing xmlns
+* Merge pull request `#112 <https://github.com/ipa320/cob_calibration_data/issues/112>`_ from ipa-fxm/use_latest_xacro_syntax
+  use latest xacro syntax
+* Merge pull request `#111 <https://github.com/ipa320/cob_calibration_data/issues/111>`_ from ipa-fxm/harmonize_calibration_structure
+  move camera calibration files into sub-folders
+* Merge pull request `#110 <https://github.com/ipa320/cob_calibration_data/issues/110>`_ from ipa320/indigo_release_candidate
+  Indigo release candidate
+* use latest xacro syntax
+* move camera calibration files into sub-folders
+* Merge pull request `#108 <https://github.com/ipa320/cob_calibration_data/issues/108>`_ from ipa-cob4-7/cob4-10
+  usb camera calibration
+* camera calibration
+* Merge pull request `#107 <https://github.com/ipa320/cob_calibration_data/issues/107>`_ from ipa-cob4-7/cob4-10
+  Setup cob4-10
+* setup cob4-10
+* Merge pull request `#106 <https://github.com/ipa320/cob_calibration_data/issues/106>`_ from ipa-cob4-7/indigo_dev
+  [cob4-7] added head usb camera
+* add arms
+* added head usb camera
+* Contributors: Benjamin Maidel, Felix Messmer, Florian Weisshardt, Mathias Lüdtke, Matthias Gruhler, Nadia Hammoudeh García, ipa-cob4-5, ipa-cob4-8, ipa-fxm, ipa-nhg, robot
+
 0.6.6 (2016-10-10)
 ------------------
 * Merge pull request `#105 <https://github.com/ipa320/cob_calibration_data/issues/105>`_ from ipa-nhg/Feature/headcamURDF
