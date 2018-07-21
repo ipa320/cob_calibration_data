@@ -2,6 +2,19 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.9 (2018-07-21)
+------------------
+* Merge pull request `#148 <https://github.com/ipa320/cob_calibration_data/issues/148>`_ from HannesBachter/add_cob4-13_cardiff
+  calibrate head cam for cob4-13
+* calibrate head cam
+* Merge pull request `#147 <https://github.com/ipa320/cob_calibration_data/issues/147>`_ from ipa-fxm/add_cob4-13_cardiff
+  add cob4-13 cardiff
+* Merge pull request `#146 <https://github.com/ipa320/cob_calibration_data/issues/146>`_ from ipa-fxm/add_cob4-18_323
+  add cob4-18 323
+* add cob4-13 cardiff
+* add cob4-18 323
+* Contributors: Felix Messmer, Florian Weisshardt, cob4-13, ipa-fxm
+
 0.6.8 (2018-01-07)
 ------------------
 * Merge pull request `#144 <https://github.com/ipa320/cob_calibration_data/issues/144>`_ from ipa320/indigo_release_candidate
