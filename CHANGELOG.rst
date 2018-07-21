@@ -2,8 +2,8 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.9 (2018-07-21)
+------------------
 * Merge pull request `#148 <https://github.com/ipa320/cob_calibration_data/issues/148>`_ from HannesBachter/add_cob4-13_cardiff
   calibrate head cam for cob4-13
 * calibrate head cam
