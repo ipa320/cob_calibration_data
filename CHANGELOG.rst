@@ -2,8 +2,8 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.10 (2019-03-14)
+-------------------
 * rosinstall consistency
 * Merge pull request `#149 <https://github.com/ipa320/cob_calibration_data/issues/149>`_ from fmessmer/add_cob4-20
   add cob4-20 ipa 340
