@@ -2,6 +2,14 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.11 (2019-04-05)
+-------------------
+* Merge pull request `#150 <https://github.com/ipa320/cob_calibration_data/issues/150>`_ from fmessmer/add_cob4-25
+  add cob4-25
+* calibrate head_cam cob4-25
+* add cob4-25
+* Contributors: Felix Messmer, fmessmer
+
 0.6.10 (2019-03-14)
 -------------------
 * rosinstall consistency
