@@ -2,6 +2,16 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.12 (2019-08-06)
+-------------------
+* Merge pull request `#154 <https://github.com/ipa320/cob_calibration_data/issues/154>`_ from fmessmer/melodify
+  [Melodic] add melodic checks
+* add melodic support
+* Merge pull request `#153 <https://github.com/ipa320/cob_calibration_data/issues/153>`_ from HannesBachter/add_cob4-22
+  add cob4-22
+* add cob4-22
+* Contributors: Felix Messmer, Florian Weisshardt, fmessmer, hyb
+
 0.6.11 (2019-04-05)
 -------------------
 * Merge pull request `#150 <https://github.com/ipa320/cob_calibration_data/issues/150>`_ from fmessmer/add_cob4-25
