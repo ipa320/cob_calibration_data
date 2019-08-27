@@ -47,7 +47,7 @@
 	<xacro:property name="offset_head_pitch" value="0.0"/>
 	<xacro:property name="offset_head_yaw" value="0.0"/>
 
-	<!-- sersorring mount positions | relative to head_3_link -->
+	<!-- sensorring mount positions | relative to head_3_link -->
 	<xacro:property name="offset_sensorring_x" value="0.0"/>
 	<xacro:property name="offset_sensorring_y" value="0.0"/>
 	<xacro:property name="offset_sensorring_z" value="0.0"/>
@@ -87,36 +87,34 @@
 	<xacro:property name="offset_gripper_left_pitch" value="0.0"/>
 	<xacro:property name="offset_gripper_left_yaw" value="0.0"/>
 
-	<!-- *********************************** -->
-	<!-- kinematic chain reference positions -->
-	<!-- *********************************** -->
-	<!-- this feature is no longer supported as urdfdom does not parse the according 'calibration_rising' tag -->
-
-	<!-- cam3d left | handeye calibration | relative to torso_3_link -->
+	<!-- ***************************** -->
+	<!-- extrinsic camera calibration  -->
+	<!-- ***************************** -->
+	<!-- torso cam3d left mount positions | relative to torso_3_link -->
 	<xacro:property name="offset_torso_cam3d_left_x" value="0.0"/>
 	<xacro:property name="offset_torso_cam3d_left_y" value="0.0"/>
 	<xacro:property name="offset_torso_cam3d_left_z" value="0.0"/>
 	<xacro:property name="offset_torso_cam3d_left_roll" value="0.0"/>
-	<xacro:property name="offset_torso_cam3d_left_pitch" value="0.0"/>
+	<xacro:property name="offset_torso_cam3d_left_pitch" value="0.04"/>
 	<xacro:property name="offset_torso_cam3d_left_yaw" value="0.0"/>
 
-	<!-- cam3d right | handeye calibration | relative to torso_3_link -->
+	<!-- torso cam3d right mount positions | relative to torso_3_link -->
 	<xacro:property name="offset_torso_cam3d_right_x" value="0.0"/>
 	<xacro:property name="offset_torso_cam3d_right_y" value="0.0"/>
 	<xacro:property name="offset_torso_cam3d_right_z" value="0.0"/>
 	<xacro:property name="offset_torso_cam3d_right_roll" value="0.0"/>
-	<xacro:property name="offset_torso_cam3d_right_pitch" value="0.0"/>
+	<xacro:property name="offset_torso_cam3d_right_pitch" value="0.04"/>
 	<xacro:property name="offset_torso_cam3d_right_yaw" value="0.0"/>
 
-	<!-- cam3d down | handeye calibration | relative to torso_3_link -->
+	<!-- torso cam3d down mount positions | relative to torso_3_link -->
 	<xacro:property name="offset_torso_cam3d_down_x" value="0.0"/>
 	<xacro:property name="offset_torso_cam3d_down_y" value="0.0"/>
 	<xacro:property name="offset_torso_cam3d_down_z" value="0.0"/>
 	<xacro:property name="offset_torso_cam3d_down_roll" value="0.0"/>
 	<xacro:property name="offset_torso_cam3d_down_pitch" value="0.0"/>
 	<xacro:property name="offset_torso_cam3d_down_yaw" value="0.0"/>
-	
-	<!-- cam3d | handeye calibration | relative to sensorring_link -->
+
+	<!-- sensorring cam3d mount positions | relative to sensorring_link -->
 	<xacro:property name="offset_sensorring_cam3d_x" value="0.0"/>
 	<xacro:property name="offset_sensorring_cam3d_y" value="0.0"/>
 	<xacro:property name="offset_sensorring_cam3d_z" value="0.0"/>
@@ -124,7 +122,7 @@
 	<xacro:property name="offset_sensorring_cam3d_pitch" value="0.0"/>
 	<xacro:property name="offset_sensorring_cam3d_yaw" value="0.0"/>
 
-	<!-- cam | handeye calibration | relative to head_3_link -->
+	<!-- head cam mount positions | relative to head_3_link -->
 	<xacro:property name="offset_head_cam_x" value="0.0"/>
 	<xacro:property name="offset_head_cam_y" value="0.0"/>
 	<xacro:property name="offset_head_cam_z" value="0.0"/>
