@@ -2,8 +2,8 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.13 (2019-11-07)
+-------------------
 * Merge pull request `#157 <https://github.com/ipa320/cob_calibration_data/issues/157>`_ from floweisshardt/migrate/travis_com
   migrate to travis-ci.com
 * migrate to travis-ci.com
