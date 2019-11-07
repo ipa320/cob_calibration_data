@@ -2,6 +2,20 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.13 (2019-11-07)
+-------------------
+* Merge pull request `#157 <https://github.com/ipa320/cob_calibration_data/issues/157>`_ from floweisshardt/migrate/travis_com
+  migrate to travis-ci.com
+* migrate to travis-ci.com
+* Merge pull request `#156 <https://github.com/ipa320/cob_calibration_data/issues/156>`_ from fmessmer/add_cob4-24
+  add cob4-24
+* transfer mojin calibration to cob calibration for cob4-24
+* add cob4-24
+* Merge pull request `#155 <https://github.com/ipa320/cob_calibration_data/issues/155>`_ from HannesBachter/update_cob4-3
+  update xacro for cob4-3
+* update xacro for cob4-3
+* Contributors: Benjamin Maidel, Felix Messmer, Florian Weisshardt, floweisshardt, fmessmer, hyb
+
 0.6.12 (2019-08-06)
 -------------------
 * Merge pull request `#154 <https://github.com/ipa320/cob_calibration_data/issues/154>`_ from fmessmer/melodify
