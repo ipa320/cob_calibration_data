@@ -9,7 +9,7 @@ notifications:
 env:
   global:
     - ROS_REPO=ros
-    - AFTER_SCRIPT='./.travis.xacro_test.sh'
+    - AFTER_SCRIPT='sh .travis.xacro_test.sh'
   matrix:
     - ROS_DISTRO=indigo UPSTREAM_WORKSPACE=file
     - ROS_DISTRO=indigo UPSTREAM_WORKSPACE=debian
