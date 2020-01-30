@@ -13,6 +13,9 @@ env:
     - CATKIN_LINT=pedantic
     - CMAKE_ARGS=-DCMAKE_BUILD_TYPE=Release
     - NOT_TEST_DOWNSTREAM=true
+    - PYLINT_ARGS="--output-format=parseable --errors-only"
+    - PYLINT2_CHECK=true
+    - PYLINT3_CHECK=true
     - ROS_REPO=ros
     - VERBOSE_OUTPUT=false
     - VERBOSE_TESTS=false
@@ -26,6 +29,6 @@ matrix:
     - env: ROS_DISTRO=kinetic UPSTREAM_WORKSPACE=debian
     - env: ROS_DISTRO=melodic UPSTREAM_WORKSPACE=debian
 install:
-  - git clone --quiet --depth 1 https://github.com/ros-industrial/industrial_ci.git .industrial_ci -b master
+  - git clone --quiet --depth 1 https://github.com/fmessmer/industrial_ci.git .industrial_ci -b master_pylint
 script:
   - .industrial_ci/travis.sh
