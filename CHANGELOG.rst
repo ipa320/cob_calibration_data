@@ -2,8 +2,8 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.14 (2020-03-18)
+-------------------
 * Merge pull request `#164 <https://github.com/ipa320/cob_calibration_data/issues/164>`_ from fmessmer/remove_cob4-22
   remove cob4-22
 * remove cob4-22
