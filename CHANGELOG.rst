@@ -2,6 +2,32 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.14 (2020-03-18)
+-------------------
+* Merge pull request `#164 <https://github.com/ipa320/cob_calibration_data/issues/164>`_ from fmessmer/remove_cob4-22
+  remove cob4-22
+* remove cob4-22
+* Merge pull request `#163 <https://github.com/ipa320/cob_calibration_data/issues/163>`_ from HannesBachter/add_cob4-23
+  add cob4-23
+* add cob4-23
+* Merge pull request `#162 <https://github.com/ipa320/cob_calibration_data/issues/162>`_ from fmessmer/feature/python3_compatibility
+  [ci_updates] pylint + Python3 compatibility
+* activate pylint checks from feature branch
+* Merge pull request `#160 <https://github.com/ipa320/cob_calibration_data/issues/160>`_ from fmessmer/rosenv_after_script
+  use rosenv for AFTER_SCRIPT
+* use rosenv for AFTER_SCRIPT
+* Merge pull request `#159 <https://github.com/ipa320/cob_calibration_data/issues/159>`_ from fmessmer/ci_updates
+  [travis] ci updates
+* sort travis.yml
+* rosinstall consistency
+* add CATKIN_LINT=pedantic
+* update travis.yml
+* catkin_lint fixes
+* Merge pull request `#158 <https://github.com/ipa320/cob_calibration_data/issues/158>`_ from HannesBachter/update_cob4-16
+  calibrate head cam
+* calibrate head cam
+* Contributors: Felix Messmer, fmessmer, hyb
+
 0.6.13 (2019-11-07)
 -------------------
 * Merge pull request `#157 <https://github.com/ipa320/cob_calibration_data/issues/157>`_ from floweisshardt/migrate/travis_com
