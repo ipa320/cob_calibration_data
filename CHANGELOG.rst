@@ -2,8 +2,8 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.15 (2020-10-17)
+-------------------
 * Merge pull request `#165 <https://github.com/ipa320/cob_calibration_data/issues/165>`_ from fmessmer/test_noetic
   test noetic
 * remove obsolete pylint check
