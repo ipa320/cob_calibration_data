@@ -2,8 +2,8 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.16 (2021-12-23)
+-------------------
 * Merge pull request `#166 <https://github.com/ipa320/cob_calibration_data/issues/166>`_ from ipa-foj/fixup_cob4-25
   fixup cob4-25 for noetic
 * fixup cob4-25 for noetic
