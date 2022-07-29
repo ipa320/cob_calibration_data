@@ -2,8 +2,8 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.17 (2022-07-29)
+-------------------
 * Merge pull request `#167 <https://github.com/ipa320/cob_calibration_data/issues/167>`_ from pgehring/add_license
   add LICENSE
 * add LICENSE
