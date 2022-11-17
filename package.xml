@@ -1,6 +1,6 @@
 <package format="2">
   <name>cob_calibration_data</name>
-  <version>0.6.17</version>
+  <version>0.6.18</version>
   <description>This repository holds the current calibration data for Care-O-bot.</description>
 
   <author email="fmw@ipa.fhg.de">Florian Weisshardt</author>
