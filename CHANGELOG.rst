@@ -2,6 +2,17 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.18 (2022-11-17)
+-------------------
+* fix travis badge
+* Merge pull request `#169 <https://github.com/ipa320/cob_calibration_data/issues/169>`_ from fmessmer/add_cob4-30_ostwestfalen
+  add cob4-30 ostwestfalen
+* add cob4-30 ostwestfalen
+* Merge pull request `#168 <https://github.com/ipa320/cob_calibration_data/issues/168>`_ from fmessmer/add_cob4-29_goettingen
+  add cob4-29 goettingen
+* add cob4-29 goettingen
+* Contributors: Felix Messmer, fmessmer
+
 0.6.17 (2022-07-29)
 -------------------
 * Merge pull request `#167 <https://github.com/ipa320/cob_calibration_data/issues/167>`_ from pgehring/add_license
