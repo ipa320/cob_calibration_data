@@ -11,7 +11,7 @@ cob_calibration_data
 
 ## Travis - Continuous Integration
 
-Status: [![Build Status](https://travis-ci.com/ipa320/cob_calibration_data.svg?branch=indigo_dev)](https://travis-ci.com/ipa320/cob_calibration_data)
+Status: [![Build Status](https://app.travis-ci.com/ipa320/cob_calibration_data.svg?branch=indigo_dev)](https://app.travis-ci.com/ipa320/cob_calibration_data)
 
 ## ROS Buildfarm
 
