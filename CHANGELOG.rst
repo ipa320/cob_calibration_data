@@ -2,6 +2,15 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.19 (2024-02-19)
+-------------------
+* remove travis file
+* Merge pull request `#170 <https://github.com/ipa320/cob_calibration_data/issues/170>`_ from fmessmer/ci/gha
+  migrate ci to gha
+* migrate ci to gha
+* remove kinetic jobs
+* Contributors: Felix Messmer, fmessmer
+
 0.6.18 (2022-11-17)
 -------------------
 * fix travis badge
