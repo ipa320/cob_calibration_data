@@ -2,8 +2,8 @@
 Changelog for package cob_calibration_data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.19 (2024-02-19)
+-------------------
 * remove travis file
 * Merge pull request `#170 <https://github.com/ipa320/cob_calibration_data/issues/170>`_ from fmessmer/ci/gha
   migrate ci to gha
